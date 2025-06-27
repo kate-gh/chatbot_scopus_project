@@ -9582,65 +9582,6 @@
       {
         "@_fa": "true",
         "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007152685"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007152685?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007152685&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007152685&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "full-text",
-        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0167739X25002092"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007152685",
-    "dc:identifier": "SCOPUS_ID:105007152685",
-    "eid": "2-s2.0-105007152685",
-    "dc:title": "MicroFaaS: Adaptive serverless computing for Internet of Things",
-    "dc:creator": "Krolik O.",
-    "prism:publicationName": "Future Generation Computer Systems",
-    "prism:issn": "0167739X",
-    "prism:volume": "174",
-    "prism:pageRange": null,
-    "prism:coverDate": "2026-01-01",
-    "prism:coverDisplayDate": "January 2026",
-    "prism:doi": "10.1016/j.future.2025.107914",
-    "pii": "S0167739X25002092",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "AGH University of Krakow",
-        "affiliation-city": "Krakow",
-        "affiliation-country": "Poland"
-      }
-    ],
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "107914",
-    "source-id": "12264",
-    "openaccess": "0",
-    "openaccessFlag": false
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007155490"
       },
       {
@@ -9692,6 +9633,65 @@
     "subtypeDescription": "Article",
     "article-number": "101797",
     "source-id": "27869",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007152685"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007152685?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007152685&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007152685&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0167739X25002092"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007152685",
+    "dc:identifier": "SCOPUS_ID:105007152685",
+    "eid": "2-s2.0-105007152685",
+    "dc:title": "MicroFaaS: Adaptive serverless computing for Internet of Things",
+    "dc:creator": "Krolik O.",
+    "prism:publicationName": "Future Generation Computer Systems",
+    "prism:issn": "0167739X",
+    "prism:volume": "174",
+    "prism:pageRange": null,
+    "prism:coverDate": "2026-01-01",
+    "prism:coverDisplayDate": "January 2026",
+    "prism:doi": "10.1016/j.future.2025.107914",
+    "pii": "S0167739X25002092",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "AGH University of Krakow",
+        "affiliation-city": "Krakow",
+        "affiliation-country": "Poland"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "107914",
+    "source-id": "12264",
     "openaccess": "0",
     "openaccessFlag": false
   },
@@ -12584,6 +12584,65 @@
       {
         "@_fa": "true",
         "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105006812285"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105006812285?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105006812285&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105006812285&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0167739X25002079"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105006812285",
+    "dc:identifier": "SCOPUS_ID:105006812285",
+    "eid": "2-s2.0-105006812285",
+    "dc:title": "Exploring the performance of CP2K simulations on the CPU-GPDSP Fusion intra-heterogeneous HPC system",
+    "dc:creator": "Du Q.",
+    "prism:publicationName": "Future Generation Computer Systems",
+    "prism:issn": "0167739X",
+    "prism:volume": "174",
+    "prism:pageRange": null,
+    "prism:coverDate": "2026-01-01",
+    "prism:coverDisplayDate": "January 2026",
+    "prism:doi": "10.1016/j.future.2025.107912",
+    "pii": "S0167739X25002079",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Hunan University",
+        "affiliation-city": "Changsha",
+        "affiliation-country": "China"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "107912",
+    "source-id": "12264",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/105008114819"
       },
       {
@@ -12639,65 +12698,6 @@
     "subtype": "ar",
     "subtypeDescription": "Article",
     "article-number": "107937",
-    "source-id": "12264",
-    "openaccess": "0",
-    "openaccessFlag": false
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105006812285"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105006812285?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105006812285&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105006812285&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "full-text",
-        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0167739X25002079"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105006812285",
-    "dc:identifier": "SCOPUS_ID:105006812285",
-    "eid": "2-s2.0-105006812285",
-    "dc:title": "Exploring the performance of CP2K simulations on the CPU-GPDSP Fusion intra-heterogeneous HPC system",
-    "dc:creator": "Du Q.",
-    "prism:publicationName": "Future Generation Computer Systems",
-    "prism:issn": "0167739X",
-    "prism:volume": "174",
-    "prism:pageRange": null,
-    "prism:coverDate": "2026-01-01",
-    "prism:coverDisplayDate": "January 2026",
-    "prism:doi": "10.1016/j.future.2025.107912",
-    "pii": "S0167739X25002079",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "Hunan University",
-        "affiliation-city": "Changsha",
-        "affiliation-country": "China"
-      }
-    ],
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "107912",
     "source-id": "12264",
     "openaccess": "0",
     "openaccessFlag": false
@@ -13253,6 +13253,65 @@
       {
         "@_fa": "true",
         "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007453675"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007453675?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007453675&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007453675&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0039914025009373"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007453675",
+    "dc:identifier": "SCOPUS_ID:105007453675",
+    "eid": "2-s2.0-105007453675",
+    "dc:title": "A novel “off-on” ratiometric fluorescent probe based on nitrogen-doped carbon dots for silver ion and glutathione assays",
+    "dc:creator": "Ma X.",
+    "prism:publicationName": "Talanta",
+    "prism:issn": "00399140",
+    "prism:volume": "296",
+    "prism:pageRange": null,
+    "prism:coverDate": "2026-01-01",
+    "prism:coverDisplayDate": "1 January 2026",
+    "prism:doi": "10.1016/j.talanta.2025.128447",
+    "pii": "S0039914025009373",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "China West Normal University",
+        "affiliation-city": "Nanchong",
+        "affiliation-country": "China"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "128447",
+    "source-id": "24555",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007540448"
       },
       {
@@ -13306,65 +13365,6 @@
     "source-id": "28200",
     "openaccess": "1",
     "openaccessFlag": true
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007453675"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007453675?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007453675&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007453675&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "full-text",
-        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0039914025009373"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007453675",
-    "dc:identifier": "SCOPUS_ID:105007453675",
-    "eid": "2-s2.0-105007453675",
-    "dc:title": "A novel “off-on” ratiometric fluorescent probe based on nitrogen-doped carbon dots for silver ion and glutathione assays",
-    "dc:creator": "Ma X.",
-    "prism:publicationName": "Talanta",
-    "prism:issn": "00399140",
-    "prism:volume": "296",
-    "prism:pageRange": null,
-    "prism:coverDate": "2026-01-01",
-    "prism:coverDisplayDate": "1 January 2026",
-    "prism:doi": "10.1016/j.talanta.2025.128447",
-    "pii": "S0039914025009373",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "China West Normal University",
-        "affiliation-city": "Nanchong",
-        "affiliation-country": "China"
-      }
-    ],
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "128447",
-    "source-id": "24555",
-    "openaccess": "0",
-    "openaccessFlag": false
   },
   {
     "@_fa": "true",
@@ -24207,6 +24207,80 @@
       {
         "@_fa": "true",
         "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003805147"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003805147?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003805147&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003805147&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003805147",
+    "dc:identifier": "SCOPUS_ID:105003805147",
+    "eid": "2-s2.0-105003805147",
+    "dc:title": "Elevating educational insights: sentiment analysis of faculty feedback using advanced machine learning models",
+    "dc:creator": "Deshpande S.B.",
+    "prism:publicationName": "Advances in Continuous and Discrete Models",
+    "prism:eIssn": "27314235",
+    "prism:volume": "2025",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.1186/s13662-025-03933-9",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Karnatak Law Society’s Gogte Institute of Technology",
+        "affiliation-city": "Belagavi",
+        "affiliation-country": "India"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "89",
+    "source-id": "21101071257",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218154837"
       },
       {
@@ -24277,80 +24351,6 @@
         },
         {
           "$": "Gold"
-        }
-      ]
-    }
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003805147"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003805147?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003805147&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003805147&origin=inward"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003805147",
-    "dc:identifier": "SCOPUS_ID:105003805147",
-    "eid": "2-s2.0-105003805147",
-    "dc:title": "Elevating educational insights: sentiment analysis of faculty feedback using advanced machine learning models",
-    "dc:creator": "Deshpande S.B.",
-    "prism:publicationName": "Advances in Continuous and Discrete Models",
-    "prism:eIssn": "27314235",
-    "prism:volume": "2025",
-    "prism:issueIdentifier": "1",
-    "prism:pageRange": null,
-    "prism:coverDate": "2025-12-01",
-    "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1186/s13662-025-03933-9",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "Karnatak Law Society’s Gogte Institute of Technology",
-        "affiliation-city": "Belagavi",
-        "affiliation-country": "India"
-      }
-    ],
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "89",
-    "source-id": "21101071257",
-    "openaccess": "1",
-    "openaccessFlag": true,
-    "freetoread": {
-      "value": [
-        {
-          "$": "all"
-        },
-        {
-          "$": "publisherhybridgold"
-        }
-      ]
-    },
-    "freetoreadLabel": {
-      "value": [
-        {
-          "$": "All Open Access"
-        },
-        {
-          "$": "Hybrid Gold"
         }
       ]
     }
@@ -24680,60 +24680,86 @@
       {
         "@_fa": "true",
         "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105000196197"
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217737527"
       },
       {
         "@_fa": "true",
         "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105000196197?field=author,affiliation"
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217737527?field=author,affiliation"
       },
       {
         "@_fa": "true",
         "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105000196197&origin=inward"
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217737527&origin=inward"
       },
       {
         "@_fa": "true",
         "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105000196197&origin=inward"
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85217737527&origin=inward"
       }
     ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105000196197",
-    "dc:identifier": "SCOPUS_ID:105000196197",
-    "eid": "2-s2.0-105000196197",
-    "dc:title": "Use machine learning to predict treatment outcome of early childhood caries",
-    "dc:creator": "Wu Y.",
-    "prism:publicationName": "BMC Oral Health",
-    "prism:eIssn": "14726831",
-    "prism:volume": "25",
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85217737527",
+    "dc:identifier": "SCOPUS_ID:85217737527",
+    "eid": "2-s2.0-85217737527",
+    "dc:title": "Accelerating machine learning queries with linear algebra query processing",
+    "dc:creator": "Sun W.",
+    "prism:publicationName": "Distributed and Parallel Databases",
+    "prism:issn": "09268782",
+    "prism:eIssn": "15737578",
+    "prism:volume": "43",
     "prism:issueIdentifier": "1",
     "prism:pageRange": null,
     "prism:coverDate": "2025-12-01",
     "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1186/s12903-025-05768-y",
-    "citedby-count": "1",
+    "prism:doi": "10.1007/s10619-024-07451-7",
+    "citedby-count": "0",
     "affiliation": [
       {
         "@_fa": "true",
-        "affilname": "The Hong Kong Polytechnic University",
-        "affiliation-city": "Hong Kong",
-        "affiliation-country": "Hong Kong"
-      },
-      {
-        "@_fa": "true",
-        "affilname": "Xiamen University",
-        "affiliation-city": "Xiamen",
-        "affiliation-country": "China"
+        "affilname": "Delft University of Technology",
+        "affiliation-city": "Delft",
+        "affiliation-country": "Netherlands"
       }
     ],
-    "pubmed-id": "40089762",
     "prism:aggregationType": "Journal",
     "subtype": "ar",
     "subtypeDescription": "Article",
-    "article-number": "389",
-    "source-id": "24341",
-    "openaccess": "0",
-    "openaccessFlag": false
+    "article-number": "8",
+    "source-id": "13130",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        },
+        {
+          "$": "repository"
+        },
+        {
+          "$": "repositoryvor"
+        },
+        {
+          "$": "repositoryam"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        },
+        {
+          "$": "Green"
+        }
+      ]
+    }
   },
   {
     "@_fa": "true",
@@ -24815,86 +24841,60 @@
       {
         "@_fa": "true",
         "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217737527"
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105000196197"
       },
       {
         "@_fa": "true",
         "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217737527?field=author,affiliation"
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105000196197?field=author,affiliation"
       },
       {
         "@_fa": "true",
         "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217737527&origin=inward"
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105000196197&origin=inward"
       },
       {
         "@_fa": "true",
         "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85217737527&origin=inward"
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105000196197&origin=inward"
       }
     ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85217737527",
-    "dc:identifier": "SCOPUS_ID:85217737527",
-    "eid": "2-s2.0-85217737527",
-    "dc:title": "Accelerating machine learning queries with linear algebra query processing",
-    "dc:creator": "Sun W.",
-    "prism:publicationName": "Distributed and Parallel Databases",
-    "prism:issn": "09268782",
-    "prism:eIssn": "15737578",
-    "prism:volume": "43",
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105000196197",
+    "dc:identifier": "SCOPUS_ID:105000196197",
+    "eid": "2-s2.0-105000196197",
+    "dc:title": "Use machine learning to predict treatment outcome of early childhood caries",
+    "dc:creator": "Wu Y.",
+    "prism:publicationName": "BMC Oral Health",
+    "prism:eIssn": "14726831",
+    "prism:volume": "25",
     "prism:issueIdentifier": "1",
     "prism:pageRange": null,
     "prism:coverDate": "2025-12-01",
     "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1007/s10619-024-07451-7",
-    "citedby-count": "0",
+    "prism:doi": "10.1186/s12903-025-05768-y",
+    "citedby-count": "1",
     "affiliation": [
       {
         "@_fa": "true",
-        "affilname": "Delft University of Technology",
-        "affiliation-city": "Delft",
-        "affiliation-country": "Netherlands"
+        "affilname": "The Hong Kong Polytechnic University",
+        "affiliation-city": "Hong Kong",
+        "affiliation-country": "Hong Kong"
+      },
+      {
+        "@_fa": "true",
+        "affilname": "Xiamen University",
+        "affiliation-city": "Xiamen",
+        "affiliation-country": "China"
       }
     ],
+    "pubmed-id": "40089762",
     "prism:aggregationType": "Journal",
     "subtype": "ar",
     "subtypeDescription": "Article",
-    "article-number": "8",
-    "source-id": "13130",
-    "openaccess": "1",
-    "openaccessFlag": true,
-    "freetoread": {
-      "value": [
-        {
-          "$": "all"
-        },
-        {
-          "$": "publisherhybridgold"
-        },
-        {
-          "$": "repository"
-        },
-        {
-          "$": "repositoryvor"
-        },
-        {
-          "$": "repositoryam"
-        }
-      ]
-    },
-    "freetoreadLabel": {
-      "value": [
-        {
-          "$": "All Open Access"
-        },
-        {
-          "$": "Hybrid Gold"
-        },
-        {
-          "$": "Green"
-        }
-      ]
-    }
+    "article-number": "389",
+    "source-id": "24341",
+    "openaccess": "0",
+    "openaccessFlag": false
   },
   {
     "@_fa": "true",
@@ -24985,6 +24985,61 @@
       {
         "@_fa": "true",
         "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003020285"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003020285?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003020285&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003020285&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003020285",
+    "dc:identifier": "SCOPUS_ID:105003020285",
+    "eid": "2-s2.0-105003020285",
+    "dc:title": "Evaluation of machine learning methods for prediction of heart failure mortality and readmission: meta-analysis",
+    "dc:creator": "Hajishah H.",
+    "prism:publicationName": "BMC Cardiovascular Disorders",
+    "prism:eIssn": "14712261",
+    "prism:volume": "25",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.1186/s12872-025-04700-0",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Islamic Azad University, Tehran Medical Branch",
+        "affiliation-city": "Tehran",
+        "affiliation-country": "Iran"
+      }
+    ],
+    "pubmed-id": "40189534",
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "264",
+    "source-id": "22487",
+    "openaccess": "1",
+    "openaccessFlag": true
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/105005405579"
       },
       {
@@ -25049,61 +25104,6 @@
     "source-id": "21101091183",
     "openaccess": "0",
     "openaccessFlag": false
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003020285"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003020285?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003020285&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003020285&origin=inward"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003020285",
-    "dc:identifier": "SCOPUS_ID:105003020285",
-    "eid": "2-s2.0-105003020285",
-    "dc:title": "Evaluation of machine learning methods for prediction of heart failure mortality and readmission: meta-analysis",
-    "dc:creator": "Hajishah H.",
-    "prism:publicationName": "BMC Cardiovascular Disorders",
-    "prism:eIssn": "14712261",
-    "prism:volume": "25",
-    "prism:issueIdentifier": "1",
-    "prism:pageRange": null,
-    "prism:coverDate": "2025-12-01",
-    "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1186/s12872-025-04700-0",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "Islamic Azad University, Tehran Medical Branch",
-        "affiliation-city": "Tehran",
-        "affiliation-country": "Iran"
-      }
-    ],
-    "pubmed-id": "40189534",
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "264",
-    "source-id": "22487",
-    "openaccess": "1",
-    "openaccessFlag": true
   },
   {
     "@_fa": "true",
@@ -25689,6 +25689,60 @@
       {
         "@_fa": "true",
         "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218822216"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218822216?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218822216&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85218822216&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85218822216",
+    "dc:identifier": "SCOPUS_ID:85218822216",
+    "eid": "2-s2.0-85218822216",
+    "dc:title": "Machine Learning-based Host–Pathogen Protein–Protein Interaction Prediction",
+    "dc:creator": "Türk E.",
+    "prism:publicationName": "Current Clinical Microbiology Reports",
+    "prism:eIssn": "21965471",
+    "prism:volume": "12",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.1007/s40588-025-00240-5",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Muğla Sıtkı Koçman Üniversitesi",
+        "affiliation-city": "Mugla",
+        "affiliation-country": "Turkey"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "article-number": "4",
+    "source-id": "21100901149",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218867862"
       },
       {
@@ -25818,60 +25872,6 @@
     "source-id": "21100200805",
     "openaccess": "1",
     "openaccessFlag": true
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218822216"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218822216?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218822216&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85218822216&origin=inward"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85218822216",
-    "dc:identifier": "SCOPUS_ID:85218822216",
-    "eid": "2-s2.0-85218822216",
-    "dc:title": "Machine Learning-based Host–Pathogen Protein–Protein Interaction Prediction",
-    "dc:creator": "Türk E.",
-    "prism:publicationName": "Current Clinical Microbiology Reports",
-    "prism:eIssn": "21965471",
-    "prism:volume": "12",
-    "prism:issueIdentifier": "1",
-    "prism:pageRange": null,
-    "prism:coverDate": "2025-12-01",
-    "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1007/s40588-025-00240-5",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "Muğla Sıtkı Koçman Üniversitesi",
-        "affiliation-city": "Mugla",
-        "affiliation-country": "Turkey"
-      }
-    ],
-    "prism:aggregationType": "Journal",
-    "subtype": "re",
-    "subtypeDescription": "Review",
-    "article-number": "4",
-    "source-id": "21100901149",
-    "openaccess": "0",
-    "openaccessFlag": false
   },
   {
     "@_fa": "true",
@@ -26048,61 +26048,6 @@
       {
         "@_fa": "true",
         "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105006916744"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105006916744?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105006916744&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105006916744&origin=inward"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105006916744",
-    "dc:identifier": "SCOPUS_ID:105006916744",
-    "eid": "2-s2.0-105006916744",
-    "dc:title": "Constructing a predictive model of negative academic emotions in high school students based on machine learning methods",
-    "dc:creator": "Ma S.",
-    "prism:publicationName": "Scientific Reports",
-    "prism:eIssn": "20452322",
-    "prism:volume": "15",
-    "prism:issueIdentifier": "1",
-    "prism:pageRange": null,
-    "prism:coverDate": "2025-12-01",
-    "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1038/s41598-025-04146-6",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "Hebei Normal University",
-        "affiliation-city": "Shijiazhuang",
-        "affiliation-country": "China"
-      }
-    ],
-    "pubmed-id": "40451895",
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "19183",
-    "source-id": "21100200805",
-    "openaccess": "0",
-    "openaccessFlag": false
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004435817"
       },
       {
@@ -26154,6 +26099,61 @@
     "subtype": "ar",
     "subtypeDescription": "Article",
     "article-number": "16032",
+    "source-id": "21100200805",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105006916744"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105006916744?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105006916744&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105006916744&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105006916744",
+    "dc:identifier": "SCOPUS_ID:105006916744",
+    "eid": "2-s2.0-105006916744",
+    "dc:title": "Constructing a predictive model of negative academic emotions in high school students based on machine learning methods",
+    "dc:creator": "Ma S.",
+    "prism:publicationName": "Scientific Reports",
+    "prism:eIssn": "20452322",
+    "prism:volume": "15",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.1038/s41598-025-04146-6",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Hebei Normal University",
+        "affiliation-city": "Shijiazhuang",
+        "affiliation-country": "China"
+      }
+    ],
+    "pubmed-id": "40451895",
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "19183",
     "source-id": "21100200805",
     "openaccess": "0",
     "openaccessFlag": false
@@ -26724,61 +26724,6 @@
       {
         "@_fa": "true",
         "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004702291"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004702291?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004702291&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105004702291&origin=inward"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105004702291",
-    "dc:identifier": "SCOPUS_ID:105004702291",
-    "eid": "2-s2.0-105004702291",
-    "dc:title": "Construction of disability risk prediction model for the elderly based on machine learning",
-    "dc:creator": "Chen J.",
-    "prism:publicationName": "Scientific Reports",
-    "prism:eIssn": "20452322",
-    "prism:volume": "15",
-    "prism:issueIdentifier": "1",
-    "prism:pageRange": null,
-    "prism:coverDate": "2025-12-01",
-    "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1038/s41598-025-01404-5",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "Zhejiang Chinese Medical University",
-        "affiliation-city": "Hangzhou",
-        "affiliation-country": "China"
-      }
-    ],
-    "pubmed-id": "40346175",
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "16247",
-    "source-id": "21100200805",
-    "openaccess": "0",
-    "openaccessFlag": false
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/105005597826"
       },
       {
@@ -26828,6 +26773,61 @@
     "source-id": "23710",
     "openaccess": "1",
     "openaccessFlag": true
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004702291"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004702291?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004702291&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105004702291&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105004702291",
+    "dc:identifier": "SCOPUS_ID:105004702291",
+    "eid": "2-s2.0-105004702291",
+    "dc:title": "Construction of disability risk prediction model for the elderly based on machine learning",
+    "dc:creator": "Chen J.",
+    "prism:publicationName": "Scientific Reports",
+    "prism:eIssn": "20452322",
+    "prism:volume": "15",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.1038/s41598-025-01404-5",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Zhejiang Chinese Medical University",
+        "affiliation-city": "Hangzhou",
+        "affiliation-country": "China"
+      }
+    ],
+    "pubmed-id": "40346175",
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "16247",
+    "source-id": "21100200805",
+    "openaccess": "0",
+    "openaccessFlag": false
   },
   {
     "@_fa": "true",
@@ -27583,80 +27583,6 @@
       {
         "@_fa": "true",
         "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217488402"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217488402?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217488402&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85217488402&origin=inward"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85217488402",
-    "dc:identifier": "SCOPUS_ID:85217488402",
-    "eid": "2-s2.0-85217488402",
-    "dc:title": "Automatic segmentation model and machine learning model grounded in ultrasound radiomics for distinguishing between low malignant risk and intermediate-high malignant risk of adnexal masses",
-    "dc:creator": "Liu L.",
-    "prism:publicationName": "Insights into Imaging",
-    "prism:eIssn": "18694101",
-    "prism:volume": "16",
-    "prism:issueIdentifier": "1",
-    "prism:pageRange": null,
-    "prism:coverDate": "2025-12-01",
-    "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1186/s13244-024-01874-7",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "Shenzhen University",
-        "affiliation-city": "Shenzhen",
-        "affiliation-country": "China"
-      }
-    ],
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "14",
-    "source-id": "21100212112",
-    "openaccess": "1",
-    "openaccessFlag": true,
-    "freetoread": {
-      "value": [
-        {
-          "$": "all"
-        },
-        {
-          "$": "publisherfullgold"
-        }
-      ]
-    },
-    "freetoreadLabel": {
-      "value": [
-        {
-          "$": "All Open Access"
-        },
-        {
-          "$": "Gold"
-        }
-      ]
-    }
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217623877"
       },
       {
@@ -27741,59 +27667,73 @@
       {
         "@_fa": "true",
         "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105008440863"
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217488402"
       },
       {
         "@_fa": "true",
         "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105008440863?field=author,affiliation"
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217488402?field=author,affiliation"
       },
       {
         "@_fa": "true",
         "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105008440863&origin=inward"
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217488402&origin=inward"
       },
       {
         "@_fa": "true",
         "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105008440863&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "full-text",
-        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S266654412500022X"
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85217488402&origin=inward"
       }
     ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105008440863",
-    "dc:identifier": "SCOPUS_ID:105008440863",
-    "eid": "2-s2.0-105008440863",
-    "dc:title": "On the application of machine learning algorithms in predicting the permeability of oil reservoirs",
-    "dc:creator": "Soromotin A.V.",
-    "prism:publicationName": "Artificial Intelligence in Geosciences",
-    "prism:eIssn": "26665441",
-    "prism:volume": "6",
-    "prism:issueIdentifier": "2",
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85217488402",
+    "dc:identifier": "SCOPUS_ID:85217488402",
+    "eid": "2-s2.0-85217488402",
+    "dc:title": "Automatic segmentation model and machine learning model grounded in ultrasound radiomics for distinguishing between low malignant risk and intermediate-high malignant risk of adnexal masses",
+    "dc:creator": "Liu L.",
+    "prism:publicationName": "Insights into Imaging",
+    "prism:eIssn": "18694101",
+    "prism:volume": "16",
+    "prism:issueIdentifier": "1",
     "prism:pageRange": null,
     "prism:coverDate": "2025-12-01",
     "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1016/j.aiig.2025.100126",
-    "pii": "S266654412500022X",
+    "prism:doi": "10.1186/s13244-024-01874-7",
     "citedby-count": "0",
     "affiliation": [
       {
         "@_fa": "true",
-        "affilname": "Perm National Research Polytechnic University",
-        "affiliation-city": "Perm",
-        "affiliation-country": "Russian Federation"
+        "affilname": "Shenzhen University",
+        "affiliation-city": "Shenzhen",
+        "affiliation-country": "China"
       }
     ],
     "prism:aggregationType": "Journal",
     "subtype": "ar",
     "subtypeDescription": "Article",
-    "article-number": "100126",
-    "source-id": "21101107176",
-    "openaccess": "0",
-    "openaccessFlag": false
+    "article-number": "14",
+    "source-id": "21100212112",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
   },
   {
     "@_fa": "true",
@@ -27998,6 +27938,66 @@
         }
       ]
     }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105008440863"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105008440863?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105008440863&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105008440863&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S266654412500022X"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105008440863",
+    "dc:identifier": "SCOPUS_ID:105008440863",
+    "eid": "2-s2.0-105008440863",
+    "dc:title": "On the application of machine learning algorithms in predicting the permeability of oil reservoirs",
+    "dc:creator": "Soromotin A.V.",
+    "prism:publicationName": "Artificial Intelligence in Geosciences",
+    "prism:eIssn": "26665441",
+    "prism:volume": "6",
+    "prism:issueIdentifier": "2",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.1016/j.aiig.2025.100126",
+    "pii": "S266654412500022X",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Perm National Research Polytechnic University",
+        "affiliation-city": "Perm",
+        "affiliation-country": "Russian Federation"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "100126",
+    "source-id": "21101107176",
+    "openaccess": "0",
+    "openaccessFlag": false
   },
   {
     "@_fa": "true",
@@ -28718,6 +28718,61 @@
       {
         "@_fa": "true",
         "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007834157"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007834157?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007834157&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007834157&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007834157",
+    "dc:identifier": "SCOPUS_ID:105007834157",
+    "eid": "2-s2.0-105007834157",
+    "dc:title": "28-day all-cause mortality in patients with alcoholic cirrhosis: a machine learning prediction model based on the MIMIC-IV",
+    "dc:creator": "Lei C.",
+    "prism:publicationName": "Clinical and Experimental Medicine",
+    "prism:issn": "15918890",
+    "prism:eIssn": "15919528",
+    "prism:volume": "25",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.1007/s10238-025-01744-6",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Central South University Xiangya School of Medicine",
+        "affiliation-city": "Changsha",
+        "affiliation-country": "China"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "198",
+    "source-id": "29302",
+    "openaccess": "1",
+    "openaccessFlag": true
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/85216515022"
       },
       {
@@ -28801,61 +28856,6 @@
         }
       ]
     }
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007834157"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007834157?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007834157&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007834157&origin=inward"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007834157",
-    "dc:identifier": "SCOPUS_ID:105007834157",
-    "eid": "2-s2.0-105007834157",
-    "dc:title": "28-day all-cause mortality in patients with alcoholic cirrhosis: a machine learning prediction model based on the MIMIC-IV",
-    "dc:creator": "Lei C.",
-    "prism:publicationName": "Clinical and Experimental Medicine",
-    "prism:issn": "15918890",
-    "prism:eIssn": "15919528",
-    "prism:volume": "25",
-    "prism:issueIdentifier": "1",
-    "prism:pageRange": null,
-    "prism:coverDate": "2025-12-01",
-    "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1007/s10238-025-01744-6",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "Central South University Xiangya School of Medicine",
-        "affiliation-city": "Changsha",
-        "affiliation-country": "China"
-      }
-    ],
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "198",
-    "source-id": "29302",
-    "openaccess": "1",
-    "openaccessFlag": true
   },
   {
     "@_fa": "true",
@@ -29627,6 +29627,60 @@
       {
         "@_fa": "true",
         "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217762742"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217762742?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217762742&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85217762742&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85217762742",
+    "dc:identifier": "SCOPUS_ID:85217762742",
+    "eid": "2-s2.0-85217762742",
+    "dc:title": "Machine learning-driven prediction of biochar adsorption capacity for effective removal of Congo red dye",
+    "dc:creator": "Yadav S.",
+    "prism:publicationName": "Carbon Research",
+    "prism:eIssn": "27316696",
+    "prism:volume": "4",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.1007/s44246-024-00168-3",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "National Institute of Technology Rourkela",
+        "affiliation-city": "Rourkela",
+        "affiliation-country": "India"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "11",
+    "source-id": "21101153191",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
         "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003148098"
       },
       {
@@ -29676,60 +29730,6 @@
     "source-id": "19450",
     "openaccess": "1",
     "openaccessFlag": true
-  },
-  {
-    "@_fa": "true",
-    "link": [
-      {
-        "@_fa": "true",
-        "@ref": "self",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217762742"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "author-affiliation",
-        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217762742?field=author,affiliation"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus",
-        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217762742&origin=inward"
-      },
-      {
-        "@_fa": "true",
-        "@ref": "scopus-citedby",
-        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85217762742&origin=inward"
-      }
-    ],
-    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85217762742",
-    "dc:identifier": "SCOPUS_ID:85217762742",
-    "eid": "2-s2.0-85217762742",
-    "dc:title": "Machine learning-driven prediction of biochar adsorption capacity for effective removal of Congo red dye",
-    "dc:creator": "Yadav S.",
-    "prism:publicationName": "Carbon Research",
-    "prism:eIssn": "27316696",
-    "prism:volume": "4",
-    "prism:issueIdentifier": "1",
-    "prism:pageRange": null,
-    "prism:coverDate": "2025-12-01",
-    "prism:coverDisplayDate": "December 2025",
-    "prism:doi": "10.1007/s44246-024-00168-3",
-    "citedby-count": "0",
-    "affiliation": [
-      {
-        "@_fa": "true",
-        "affilname": "National Institute of Technology Rourkela",
-        "affiliation-city": "Rourkela",
-        "affiliation-country": "India"
-      }
-    ],
-    "prism:aggregationType": "Journal",
-    "subtype": "ar",
-    "subtypeDescription": "Article",
-    "article-number": "11",
-    "source-id": "21101153191",
-    "openaccess": "0",
-    "openaccessFlag": false
   },
   {
     "@_fa": "true",
