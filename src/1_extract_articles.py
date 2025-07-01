@@ -2,8 +2,9 @@ import requests
 import json
 import time
 from pathlib import Path
-
-API_KEY = "c77826d9d77779977c1ab8a027e0746d"
+	#8879c883ce16febb4846c624f21596fa omaima ucd
+    #c77826d9d77779977c1ab8a027e0746d kawtar
+API_KEY = "8879c883ce16febb4846c624f21596fa"
 headers = {"Accept": "application/json", "X-ELS-APIKey": API_KEY}
 query = "machine learning"
 url = "https://api.elsevier.com/content/search/scopus"

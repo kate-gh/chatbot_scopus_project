@@ -57,7 +57,8 @@
     "article-number": "e70123",
     "source-id": "21101202109",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "colonoscopy; inchworm; robotic; pilot; center"
   },
   {
     "@_fa": "true",
@@ -111,7 +112,8 @@
     "article-number": "e70150",
     "source-id": "21101202109",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "endoscopy; esophagus; examiner; barrett; intelligence"
   },
   {
     "@_fa": "true",
@@ -173,7 +175,8 @@
     "article-number": "e70137",
     "source-id": "21038",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "allograft; transplantation; lung; phenotypes; automated"
   },
   {
     "@_fa": "true",
@@ -228,7 +231,8 @@
     "article-number": "424895",
     "source-id": "13835",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "stamping; bending; neural; design; artificial"
   },
   {
     "@_fa": "true",
@@ -283,7 +287,8 @@
     "article-number": "324850",
     "source-id": "13835",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ultrasonic; recirculating; shear; flow; cavity"
   },
   {
     "@_fa": "true",
@@ -341,7 +346,8 @@
     "subtypeDescription": "Review",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "electrocatalytic; prediction; optimization; learning; machine"
   },
   {
     "@_fa": "true",
@@ -399,7 +405,8 @@
     "subtypeDescription": "Review",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "cocrni; alloys; additive; manufacturing; doping"
   },
   {
     "@_fa": "true",
@@ -457,7 +464,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ti6al4v; bonding; coatings; oxide; fragmentation"
   },
   {
     "@_fa": "true",
@@ -515,7 +523,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "alloy; dual; mg; machine; learning"
   },
   {
     "@_fa": "true",
@@ -573,7 +582,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "alloy; dislocation; hf; thermostability; cr"
   },
   {
     "@_fa": "true",
@@ -631,7 +641,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "alloy; co31; 5ni31; 5fe18; entropy"
   },
   {
     "@_fa": "true",
@@ -684,7 +695,8 @@
     "subtypeDescription": "Review",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "neurological; diagnosis; algorithms; learning; diseases"
   },
   {
     "@_fa": "true",
@@ -743,7 +755,8 @@
     "article-number": "116875",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "prediction; breast; optimized; learning; cancer"
   },
   {
     "@_fa": "true",
@@ -802,7 +815,8 @@
     "article-number": "103085",
     "source-id": "18080",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "scheduling; reinforcement; agent; flow; maintenance"
   },
   {
     "@_fa": "true",
@@ -861,7 +875,8 @@
     "article-number": "116843",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "queueing; customers; medical; manage; policy"
   },
   {
     "@_fa": "true",
@@ -920,7 +935,8 @@
     "article-number": "111985",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "regularization; feature; incremental; supervised; selection"
   },
   {
     "@_fa": "true",
@@ -978,7 +994,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tinicuhfco; optimization; alloys; hysteresis; objective"
   },
   {
     "@_fa": "true",
@@ -1031,7 +1048,8 @@
     "subtypeDescription": "Review",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adversarial; generative; financial; market; data"
   },
   {
     "@_fa": "true",
@@ -1090,7 +1108,8 @@
     "article-number": "103064",
     "source-id": "18080",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "multimodal; robot; collaboration; spatial; intelligence"
   },
   {
     "@_fa": "true",
@@ -1149,7 +1168,8 @@
     "article-number": "103080",
     "source-id": "18080",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "trajectories; robotic; autogeneration; optimization; driven"
   },
   {
     "@_fa": "true",
@@ -1214,7 +1234,8 @@
     "article-number": "103079",
     "source-id": "18080",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "coating; defect; detection; manufacturing; intelligent"
   },
   {
     "@_fa": "true",
@@ -1287,7 +1308,8 @@
           "$": "Hybrid Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "forecasting; wind; iceemdan; entropy; models"
   },
   {
     "@_fa": "true",
@@ -1346,7 +1368,8 @@
     "article-number": "103081",
     "source-id": "18080",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "disassembly; robot; balancing; line; collaboration"
   },
   {
     "@_fa": "true",
@@ -1410,7 +1433,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "compressive; composites; frp; tomography; 3d"
   },
   {
     "@_fa": "true",
@@ -1463,7 +1487,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "segmentation; clustering; tumors; imaging; morphological"
   },
   {
     "@_fa": "true",
@@ -1522,7 +1547,8 @@
     "article-number": "103078",
     "source-id": "18080",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "robotic; robot; fusion; collaborative; control"
   },
   {
     "@_fa": "true",
@@ -1581,7 +1607,8 @@
     "article-number": "103076",
     "source-id": "18080",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "aigc; manufacturing; smart; empowered; prospects"
   },
   {
     "@_fa": "true",
@@ -1646,7 +1673,8 @@
     "article-number": "103068",
     "source-id": "18080",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "twins; anomaly; detection; industrial; modal"
   },
   {
     "@_fa": "true",
@@ -1699,7 +1727,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "unimodal; distributions; statistical; models; symmetric"
   },
   {
     "@_fa": "true",
@@ -1772,7 +1801,8 @@
           "$": "Hybrid Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "clusters; mesh; topology; network; architecture"
   },
   {
     "@_fa": "true",
@@ -1831,7 +1861,8 @@
     "article-number": "103063",
     "source-id": "18080",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "twins; digital; remanufacturing; transfers; demonstration"
   },
   {
     "@_fa": "true",
@@ -1891,7 +1922,8 @@
     "article-number": "105252",
     "source-id": "16547",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "satisfaction; helpfulness; tourist; review; influences"
   },
   {
     "@_fa": "true",
@@ -1950,7 +1982,8 @@
     "article-number": "116848",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fredholm; radial; meshless; kernels; weakly"
   },
   {
     "@_fa": "true",
@@ -2014,7 +2047,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "irradiation; zrc; damage; interatomic; learning"
   },
   {
     "@_fa": "true",
@@ -2072,7 +2106,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "photocatalytic; photocatalyst; ag2o; plasmonic; ag"
   },
   {
     "@_fa": "true",
@@ -2131,7 +2166,8 @@
     "article-number": "116791",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "softmax; benney; equation; solving; luke"
   },
   {
     "@_fa": "true",
@@ -2190,7 +2226,8 @@
     "article-number": "116792",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "optimization; constrained; projection; bregman; linearly"
   },
   {
     "@_fa": "true",
@@ -2255,7 +2292,8 @@
     "article-number": "116776",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "descriptors; shape; classification; accuracy; directional"
   },
   {
     "@_fa": "true",
@@ -2314,7 +2352,8 @@
     "article-number": "116815",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "optimization; nonconvex; admm; algorithm; nonsmooth"
   },
   {
     "@_fa": "true",
@@ -2393,7 +2432,8 @@
           "$": "Hybrid Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "wavelet; transform; images; optimized; medical"
   },
   {
     "@_fa": "true",
@@ -2452,7 +2492,8 @@
     "article-number": "116813",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fuzzy; ridge; regression; computation; value"
   },
   {
     "@_fa": "true",
@@ -2511,7 +2552,8 @@
     "article-number": "116788",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "core; weighted; matrices; characterizations; ep"
   },
   {
     "@_fa": "true",
@@ -2570,7 +2612,8 @@
     "article-number": "116801",
     "source-id": "23847",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "diffusion; anomalous; differentiating; statistical; models"
   },
   {
     "@_fa": "true",
@@ -2629,7 +2672,8 @@
     "article-number": "116787",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hyperspectral; sparse; unmixing; patch; overlapping"
   },
   {
     "@_fa": "true",
@@ -2688,7 +2732,8 @@
     "article-number": "116775",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "maps; transportation; voronoi; planning; hybrid"
   },
   {
     "@_fa": "true",
@@ -2747,7 +2792,8 @@
     "article-number": "116793",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tensor; admm; nonnegative; interior; point"
   },
   {
     "@_fa": "true",
@@ -2812,7 +2858,8 @@
     "article-number": "116794",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tensor; anderson; preconditioned; absolute; splitting"
   },
   {
     "@_fa": "true",
@@ -2871,7 +2918,8 @@
     "article-number": "116811",
     "source-id": "23847",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "hyperspheres; statistics; theorems; analysis; missing"
   },
   {
     "@_fa": "true",
@@ -2929,7 +2977,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adsorption; algan; surfaces; surface; atoms"
   },
   {
     "@_fa": "true",
@@ -2993,7 +3042,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "alloy; microstructure; castings; prediction; al"
   },
   {
     "@_fa": "true",
@@ -3057,7 +3107,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "grain; thermal; relaxation; temperature; boundary"
   },
   {
     "@_fa": "true",
@@ -3115,7 +3166,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "analyte; sers; spectra; trace; normalized"
   },
   {
     "@_fa": "true",
@@ -3180,7 +3232,8 @@
     "article-number": "107905",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "lung; quantum; classification; subtypes; omic"
   },
   {
     "@_fa": "true",
@@ -3245,7 +3298,8 @@
     "article-number": "110104",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adaboost; extreme; imbalance; classification; adaptive"
   },
   {
     "@_fa": "true",
@@ -3304,7 +3358,8 @@
     "article-number": "107951",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tdml; trustworthy; distributed; learning; framework"
   },
   {
     "@_fa": "true",
@@ -3363,7 +3418,8 @@
     "article-number": "103346",
     "source-id": "28416",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "smell; detection; code; feedback; learning"
   },
   {
     "@_fa": "true",
@@ -3418,7 +3474,8 @@
     "article-number": "124711",
     "source-id": "13835",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "axle; plastic; s38c; indentation; gradient"
   },
   {
     "@_fa": "true",
@@ -3477,7 +3534,8 @@
     "article-number": "112676",
     "source-id": "20586",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "odor; algal; foods; learning; machine"
   },
   {
     "@_fa": "true",
@@ -3531,7 +3589,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101270127",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "roughness; steels; hardened; tool; cutting"
   },
   {
     "@_fa": "true",
@@ -3590,7 +3649,8 @@
     "article-number": "110116",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "neuroscience; synergies; learning; exploring; machine"
   },
   {
     "@_fa": "true",
@@ -3648,7 +3708,8 @@
     "subtypeDescription": "Article",
     "source-id": "12166",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "lithium; batteries; capacity; estimation; learning"
   },
   {
     "@_fa": "true",
@@ -3707,7 +3768,8 @@
     "article-number": "107911",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "clustering; split; parallel; learning; healthcare"
   },
   {
     "@_fa": "true",
@@ -3766,7 +3828,8 @@
     "article-number": "136001",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ionic; sulfur; liquids; compounds; learning"
   },
   {
     "@_fa": "true",
@@ -3825,7 +3888,8 @@
     "article-number": "111962",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "crowdsourcing; noise; confident; learning; correction"
   },
   {
     "@_fa": "true",
@@ -3884,7 +3948,8 @@
     "article-number": "111936",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "forecasting; multivariate; collaborative; variate; comprehensive"
   },
   {
     "@_fa": "true",
@@ -3943,7 +4008,8 @@
     "article-number": "111730",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "continual; learning; vision; task; transformer"
   },
   {
     "@_fa": "true",
@@ -4002,7 +4068,8 @@
     "article-number": "111853",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "locality; clustering; view; consensus; graph"
   },
   {
     "@_fa": "true",
@@ -4061,7 +4128,8 @@
     "article-number": "110137",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "radar; recognition; adversarial; emitter; learning"
   },
   {
     "@_fa": "true",
@@ -4132,7 +4200,8 @@
     "article-number": "110146",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "view; learning; trustworthy; incomplete; recovery"
   },
   {
     "@_fa": "true",
@@ -4191,7 +4260,8 @@
     "article-number": "111921",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hypergraph; supervised; topological; diagnosis; brain"
   },
   {
     "@_fa": "true",
@@ -4250,7 +4320,8 @@
     "article-number": "110101",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hyperspectral; learning; classification; aggregation; graph"
   },
   {
     "@_fa": "true",
@@ -4309,7 +4380,8 @@
     "article-number": "110118",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adversarial; transferable; representations; learning; graph"
   },
   {
     "@_fa": "true",
@@ -4374,7 +4446,8 @@
     "article-number": "107948",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "multimodal; federated; learning; incompleteness; robust"
   },
   {
     "@_fa": "true",
@@ -4435,7 +4508,8 @@
     "subtypeDescription": "Article",
     "source-id": "17909",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "implant; hip; classification; cutout; postoperative"
   },
   {
     "@_fa": "true",
@@ -4500,7 +4574,8 @@
     "article-number": "111875",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "degradation; adaprompt; restoration; learning; perceive"
   },
   {
     "@_fa": "true",
@@ -4554,7 +4629,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101270127",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sand; detecting; images; features; particle"
   },
   {
     "@_fa": "true",
@@ -4613,7 +4689,8 @@
     "article-number": "111823",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "endomicroscopy; recognition; boosting; bag; contrastive"
   },
   {
     "@_fa": "true",
@@ -4667,7 +4744,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101270127",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "trustworthy; risk; deep; financial; graph"
   },
   {
     "@_fa": "true",
@@ -4726,7 +4804,8 @@
     "article-number": "111928",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "causal; stationary; generalizing; dynamic; series"
   },
   {
     "@_fa": "true",
@@ -4785,7 +4864,8 @@
     "article-number": "111873",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "harmonizing; sharing; graph; contrastive; learning"
   },
   {
     "@_fa": "true",
@@ -4844,7 +4924,8 @@
     "article-number": "111896",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "pattern; learning; prototype; mining; multi"
   },
   {
     "@_fa": "true",
@@ -4904,7 +4985,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101270127",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "capsule; knowledge; representation; graph; fusion"
   },
   {
     "@_fa": "true",
@@ -4964,7 +5046,8 @@
     "article-number": "101857",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "arabic; answering; learning; language; shot"
   },
   {
     "@_fa": "true",
@@ -5023,7 +5106,8 @@
     "article-number": "111939",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "forest; rfmsu; uncertainty; multivariate; symmetrical"
   },
   {
     "@_fa": "true",
@@ -5082,7 +5166,8 @@
     "article-number": "111889",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "graph; perceiver; structured; io; data"
   },
   {
     "@_fa": "true",
@@ -5141,7 +5226,8 @@
     "article-number": "111903",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "correspondence; correspondences; embedding; fcrnet; graph"
   },
   {
     "@_fa": "true",
@@ -5200,7 +5286,8 @@
     "article-number": "111954",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "3d; patch; graph; point; learning"
   },
   {
     "@_fa": "true",
@@ -5259,7 +5346,8 @@
     "article-number": "111868",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "herbal; medicine; mpm; net; learning"
   },
   {
     "@_fa": "true",
@@ -5318,7 +5406,8 @@
     "article-number": "104019",
     "source-id": "24303",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "federated; privacy; fedsam; learning; accuracy"
   },
   {
     "@_fa": "true",
@@ -5371,7 +5460,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "skin; classification; transformer; multiclass; networks"
   },
   {
     "@_fa": "true",
@@ -5430,7 +5520,8 @@
     "article-number": "111959",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hypergraph; recognition; supervised; label; modal"
   },
   {
     "@_fa": "true",
@@ -5484,7 +5575,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101270127",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "concrete; optimization; splitting; basalt; fiber"
   },
   {
     "@_fa": "true",
@@ -5549,7 +5641,8 @@
     "article-number": "111937",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "lingual; font; position; contrastive; style"
   },
   {
     "@_fa": "true",
@@ -5615,7 +5708,8 @@
     "article-number": "101813",
     "source-id": "27869",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "supervised; separation; recognition; speech; learning"
   },
   {
     "@_fa": "true",
@@ -5680,7 +5774,8 @@
     "article-number": "111732",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "robust; factorization; nonnegative; matrix; distributionally"
   },
   {
     "@_fa": "true",
@@ -5739,7 +5834,8 @@
     "article-number": "111790",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "detection; decorrelation; weather; robust; feature"
   },
   {
     "@_fa": "true",
@@ -5798,7 +5894,8 @@
     "article-number": "111995",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hypergraph; slide; contrastive; images; learning"
   },
   {
     "@_fa": "true",
@@ -5857,7 +5954,8 @@
     "article-number": "110003",
     "source-id": "25548",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "gaussian; models; process; state; aware"
   },
   {
     "@_fa": "true",
@@ -5917,7 +6015,8 @@
     "article-number": "101818",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "classification; kernel; graph; text; algorithm"
   },
   {
     "@_fa": "true",
@@ -5977,7 +6076,8 @@
     "article-number": "101840",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "spoofed; speech; synthesizer; attribution; probabilistic"
   },
   {
     "@_fa": "true",
@@ -6036,7 +6136,8 @@
     "article-number": "103381",
     "source-id": "21915",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "teletriage; hospital; emergency; risk; registration"
   },
   {
     "@_fa": "true",
@@ -6095,7 +6196,8 @@
     "article-number": "111934",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "diffusion; models; design; survey; fundamentals"
   },
   {
     "@_fa": "true",
@@ -6154,7 +6256,8 @@
     "article-number": "111948",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "classification; dynamic; selection; neural; architecture"
   },
   {
     "@_fa": "true",
@@ -6219,7 +6322,8 @@
     "article-number": "111963",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "emotion; multimodal; micro; physiological; latent"
   },
   {
     "@_fa": "true",
@@ -6278,7 +6382,8 @@
     "article-number": "111870",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "multimodal; contrastive; sentiment; robust; hybrid"
   },
   {
     "@_fa": "true",
@@ -6337,7 +6442,8 @@
     "article-number": "111857",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adversarial; robustness; hfa2re; hyperspherical; feature"
   },
   {
     "@_fa": "true",
@@ -6396,7 +6502,8 @@
     "article-number": "111890",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "supervised; classification; robust; ℓ2; norm"
   },
   {
     "@_fa": "true",
@@ -6455,7 +6562,8 @@
     "article-number": "111892",
     "source-id": "24823",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "unlabelled; classifier; pual; positive; universally"
   },
   {
     "@_fa": "true",
@@ -6514,7 +6622,8 @@
     "article-number": "111993",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ophthalmology; segmentation; vision; generalization; fundus"
   },
   {
     "@_fa": "true",
@@ -6579,7 +6688,8 @@
     "article-number": "128374",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "flavoromics; maize; china; production; storage"
   },
   {
     "@_fa": "true",
@@ -6644,7 +6754,8 @@
     "article-number": "111986",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "alzheimer; mri; hierarchical; contrast; attention"
   },
   {
     "@_fa": "true",
@@ -6703,7 +6814,8 @@
     "article-number": "111850",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "infrared; distillation; person; visible; knowledge"
   },
   {
     "@_fa": "true",
@@ -6762,7 +6874,8 @@
     "article-number": "110097",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "denoising; langevin; stochastic; gradient; light"
   },
   {
     "@_fa": "true",
@@ -6821,7 +6934,8 @@
     "article-number": "104030",
     "source-id": "24303",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "cyber; risk; interface; game; group"
   },
   {
     "@_fa": "true",
@@ -6886,7 +7000,8 @@
     "article-number": "111885",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "skeleton; dataset; recognition; action; learning"
   },
   {
     "@_fa": "true",
@@ -6945,7 +7060,8 @@
     "article-number": "111935",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "mutation; proteins; pathogenicity; binding; attention"
   },
   {
     "@_fa": "true",
@@ -7004,7 +7120,8 @@
     "article-number": "111989",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sparse; fusion; classification; tumor; unlabelled"
   },
   {
     "@_fa": "true",
@@ -7063,7 +7180,8 @@
     "article-number": "111955",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "transformer; recognition; grained; feature; image"
   },
   {
     "@_fa": "true",
@@ -7122,7 +7240,8 @@
     "article-number": "111917",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "apnea; multimodal; mimar; sleep; modality"
   },
   {
     "@_fa": "true",
@@ -7181,7 +7300,8 @@
     "article-number": "110123",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "forgery; detection; document; desensitization; localization"
   },
   {
     "@_fa": "true",
@@ -7240,7 +7360,8 @@
     "article-number": "111792",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "spiking; autoencoder; bgs; saen; background"
   },
   {
     "@_fa": "true",
@@ -7293,7 +7414,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "datacenter; scheduling; cloud; parallel; scaling"
   },
   {
     "@_fa": "true",
@@ -7352,7 +7474,8 @@
     "article-number": "111893",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "generative; attack; scenarios; complex; real"
   },
   {
     "@_fa": "true",
@@ -7411,7 +7534,8 @@
     "article-number": "111926",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hypergraph; segmentation; bts; tumor; hyper"
   },
   {
     "@_fa": "true",
@@ -7482,7 +7606,8 @@
     "article-number": "111808",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "localization; weakly; supervised; object; world"
   },
   {
     "@_fa": "true",
@@ -7541,7 +7666,8 @@
     "article-number": "111960",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sign; alignment; recognition; blind; generation"
   },
   {
     "@_fa": "true",
@@ -7600,7 +7726,8 @@
     "article-number": "111866",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "radar; adaptation; unsupervised; activity; recognition"
   },
   {
     "@_fa": "true",
@@ -7665,7 +7792,8 @@
     "article-number": "107910",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "lstm; forecasting; decomposition; singular; lightweight"
   },
   {
     "@_fa": "true",
@@ -7730,7 +7858,8 @@
     "article-number": "111923",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "action; view; recognition; aggregation; contrastive"
   },
   {
     "@_fa": "true",
@@ -7795,7 +7924,8 @@
     "article-number": "103350",
     "source-id": "28416",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "automated; controllers; code; event; descmaker"
   },
   {
     "@_fa": "true",
@@ -7854,7 +7984,8 @@
     "article-number": "111943",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "angiograms; graph; labeling; coronary; semantic"
   },
   {
     "@_fa": "true",
@@ -7914,7 +8045,8 @@
     "article-number": "101838",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sentiment; variational; comments; representations; residual"
   },
   {
     "@_fa": "true",
@@ -7973,7 +8105,8 @@
     "article-number": "107908",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "quantum; compression; adiabatic; optimization; computing"
   },
   {
     "@_fa": "true",
@@ -8032,7 +8165,8 @@
     "article-number": "111991",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "mamba; graph; cancer; prediction; modal"
   },
   {
     "@_fa": "true",
@@ -8091,7 +8225,8 @@
     "article-number": "116747",
     "source-id": "23847",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "resnet; overfitting; regularization; lipschitz; adaptive"
   },
   {
     "@_fa": "true",
@@ -8150,7 +8285,8 @@
     "article-number": "111925",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "diffusion; video; supervised; action; detection"
   },
   {
     "@_fa": "true",
@@ -8209,7 +8345,8 @@
     "article-number": "111820",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "anomaly; detection; visual; uniformaly; task"
   },
   {
     "@_fa": "true",
@@ -8268,7 +8405,8 @@
     "article-number": "112693",
     "source-id": "20586",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ultrafiltration; sugarcane; sugar; membrane; juice"
   },
   {
     "@_fa": "true",
@@ -8327,7 +8465,8 @@
     "article-number": "107935",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "nasal; simulations; computational; virtual; dynamics"
   },
   {
     "@_fa": "true",
@@ -8386,7 +8525,8 @@
     "article-number": "111957",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "diagnosis; fusion; modality; cfp; fundus"
   },
   {
     "@_fa": "true",
@@ -8445,7 +8585,8 @@
     "article-number": "107913",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hypergraph; drug; parasitic; diseases; neural"
   },
   {
     "@_fa": "true",
@@ -8504,7 +8645,8 @@
     "article-number": "111864",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hypergraph; impairment; neural; cognitive; mild"
   },
   {
     "@_fa": "true",
@@ -8569,7 +8711,8 @@
     "article-number": "111900",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "residuals; motif; noise; explaining; analysis"
   },
   {
     "@_fa": "true",
@@ -8628,7 +8771,8 @@
     "article-number": "111824",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "oracle; recognition; datasets; character; challenges"
   },
   {
     "@_fa": "true",
@@ -8687,7 +8831,8 @@
     "article-number": "111847",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "query; transformer; dynamic; motion; bridged"
   },
   {
     "@_fa": "true",
@@ -8746,7 +8891,8 @@
     "article-number": "111964",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "humanrecon; neural; priors; human; reconstruction"
   },
   {
     "@_fa": "true",
@@ -8805,7 +8951,8 @@
     "article-number": "111956",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "infrared; tensor; detection; target; frame"
   },
   {
     "@_fa": "true",
@@ -8864,7 +9011,8 @@
     "article-number": "111949",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "detection; clustering; selection; shot; sample"
   },
   {
     "@_fa": "true",
@@ -8923,7 +9071,8 @@
     "article-number": "110115",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adversarial; predictor; sensing; controlled; optimization"
   },
   {
     "@_fa": "true",
@@ -8982,7 +9131,8 @@
     "article-number": "112675",
     "source-id": "20586",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "melamine; infrared; coffee; thermography; capsules"
   },
   {
     "@_fa": "true",
@@ -9059,7 +9209,8 @@
     "article-number": "111904",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "facial; attention; ensemble; detection; action"
   },
   {
     "@_fa": "true",
@@ -9119,7 +9270,8 @@
     "article-number": "101812",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "auditing; asr; membership; model; inference"
   },
   {
     "@_fa": "true",
@@ -9178,7 +9330,8 @@
     "article-number": "111940",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "multimodal; orthogonal; fusion; similarity; dual"
   },
   {
     "@_fa": "true",
@@ -9237,7 +9390,8 @@
     "article-number": "110096",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "inpainting; mural; texture; dunhuang; geometric"
   },
   {
     "@_fa": "true",
@@ -9296,7 +9450,8 @@
     "article-number": "111887",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "filtering; label; regression; noise; dynamic"
   },
   {
     "@_fa": "true",
@@ -9356,7 +9511,8 @@
     "article-number": "101842",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "selection; turn; language; topic; response"
   },
   {
     "@_fa": "true",
@@ -9415,7 +9571,8 @@
     "article-number": "111818",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tensor; multiview; regularization; clustering; nonconvex"
   },
   {
     "@_fa": "true",
@@ -9474,7 +9631,8 @@
     "article-number": "111862",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adversarial; classification; corruption; robustness; cloud"
   },
   {
     "@_fa": "true",
@@ -9533,7 +9691,8 @@
     "article-number": "110144",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "clustering; view; stochastic; doubly; graph"
   },
   {
     "@_fa": "true",
@@ -9592,7 +9751,8 @@
     "article-number": "111884",
     "source-id": "24823",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "multilabel; classification; imbalance; nearest; neighbor"
   },
   {
     "@_fa": "true",
@@ -9651,7 +9811,8 @@
     "article-number": "111855",
     "source-id": "24823",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "martingale; evolving; graph; changes; structural"
   },
   {
     "@_fa": "true",
@@ -9710,7 +9871,8 @@
     "article-number": "111942",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "infrared; siamese; detection; target; net"
   },
   {
     "@_fa": "true",
@@ -9775,7 +9937,8 @@
     "article-number": "111919",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "investment; stock; selection; fusion; subpatterns"
   },
   {
     "@_fa": "true",
@@ -9834,7 +9997,8 @@
     "article-number": "111952",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "wasserstein; sequential; data; generalized; distance"
   },
   {
     "@_fa": "true",
@@ -9893,7 +10057,8 @@
     "article-number": "111860",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "twin; regression; laplace; gauss; proximal"
   },
   {
     "@_fa": "true",
@@ -9952,7 +10117,8 @@
     "article-number": "111736",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "parsing; transformer; quality; human"
   },
   {
     "@_fa": "true",
@@ -10005,7 +10171,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "cheating; detecting; summarization; scene; video"
   },
   {
     "@_fa": "true",
@@ -10064,7 +10231,8 @@
     "article-number": "111881",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "clustering; normalized; cut; extension; sample"
   },
   {
     "@_fa": "true",
@@ -10129,7 +10297,8 @@
     "article-number": "107926",
     "source-id": "12264",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "autoscaler; graphopticon; performance; global; service"
   },
   {
     "@_fa": "true",
@@ -10188,7 +10357,8 @@
     "article-number": "107929",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "nonparametric; clustering; electricity; bayesian; load"
   },
   {
     "@_fa": "true",
@@ -10247,7 +10417,8 @@
     "article-number": "107901",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "privacy; portfolio; financial; optimal; preserving"
   },
   {
     "@_fa": "true",
@@ -10306,7 +10477,8 @@
     "article-number": "111878",
     "source-id": "24823",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "clustering; shapes; procrustes; squares; methods"
   },
   {
     "@_fa": "true",
@@ -10365,7 +10537,8 @@
     "article-number": "107946",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "counting; exemplar; object; shot; things"
   },
   {
     "@_fa": "true",
@@ -10445,7 +10618,8 @@
           "$": "Hybrid Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "adversarial; spoofing; asvspoof; crowdsourced; speech"
   },
   {
     "@_fa": "true",
@@ -10504,7 +10678,8 @@
     "article-number": "111902",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fsar; multimodal; recognition; clip; action"
   },
   {
     "@_fa": "true",
@@ -10569,7 +10744,8 @@
     "article-number": "111838",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fusion; attention; grading; breast; feature"
   },
   {
     "@_fa": "true",
@@ -10628,7 +10804,8 @@
     "article-number": "104033",
     "source-id": "24303",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "defect; software; reliability; graph; prediction"
   },
   {
     "@_fa": "true",
@@ -10687,7 +10864,8 @@
     "article-number": "111899",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "attention; vision; transformers; self; range"
   },
   {
     "@_fa": "true",
@@ -10746,7 +10924,8 @@
     "article-number": "110088",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "watermarking; fragile; model; survey"
   },
   {
     "@_fa": "true",
@@ -10805,7 +10984,8 @@
     "article-number": "111871",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "captioning; attention; paragraph; video; distillation"
   },
   {
     "@_fa": "true",
@@ -10864,7 +11044,8 @@
     "article-number": "110139",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tensor; regularization; tucker; completion; decomposition"
   },
   {
     "@_fa": "true",
@@ -10950,7 +11131,8 @@
           "$": "Hybrid Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "conversation; privacy; everyday; utility; preserving"
   },
   {
     "@_fa": "true",
@@ -11009,7 +11191,8 @@
     "article-number": "128503",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "cytometer; optofluidic; imaging; optical; flow"
   },
   {
     "@_fa": "true",
@@ -11068,7 +11251,8 @@
     "article-number": "111941",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "label; selection; reconstructing; feature; representation"
   },
   {
     "@_fa": "true",
@@ -11122,7 +11306,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101270127",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "agv; scheduling; workshop; ant; optimization"
   },
   {
     "@_fa": "true",
@@ -11181,7 +11366,8 @@
     "article-number": "111944",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "resolution; generative; super; translation; model"
   },
   {
     "@_fa": "true",
@@ -11241,7 +11427,8 @@
     "article-number": "101843",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "minerva; speech; language; tasks"
   },
   {
     "@_fa": "true",
@@ -11300,7 +11487,8 @@
     "article-number": "111800",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sql; records; medical; generation; text"
   },
   {
     "@_fa": "true",
@@ -11359,7 +11547,8 @@
     "article-number": "111774",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "speech; mmofusion; motion; modal; diffusion"
   },
   {
     "@_fa": "true",
@@ -11430,7 +11619,8 @@
     "article-number": "111876",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "knowledge; redensification; density; estimation; intrinsic"
   },
   {
     "@_fa": "true",
@@ -11495,7 +11685,8 @@
     "article-number": "111867",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tracking; visual; diffusion; recognition; video"
   },
   {
     "@_fa": "true",
@@ -11560,7 +11751,8 @@
     "article-number": "111845",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "grid; retrieval; multimodal; augmentation; mgrag"
   },
   {
     "@_fa": "true",
@@ -11625,7 +11817,8 @@
     "article-number": "111848",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "compression; perceptual; textual; image; information"
   },
   {
     "@_fa": "true",
@@ -11690,7 +11883,8 @@
     "article-number": "101521",
     "source-id": "17899",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "nanoparticles; magnetic; relaxation; memory; biomedical"
   },
   {
     "@_fa": "true",
@@ -11755,7 +11949,8 @@
     "article-number": "106300",
     "source-id": "12136",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "expectile; regression; generalized; approximately; divide"
   },
   {
     "@_fa": "true",
@@ -11814,7 +12009,8 @@
     "article-number": "111965",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "resolution; interpolation; texture; super; scale"
   },
   {
     "@_fa": "true",
@@ -11874,7 +12070,8 @@
     "article-number": "101841",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "speaker; whisper; speech; diarization; conditioned"
   },
   {
     "@_fa": "true",
@@ -11939,7 +12136,8 @@
     "article-number": "111883",
     "source-id": "24823",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "3d; sampling; perception; cloud; visual"
   },
   {
     "@_fa": "true",
@@ -11998,7 +12196,8 @@
     "article-number": "111905",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "spoofing; feature; face; explainability; xai"
   },
   {
     "@_fa": "true",
@@ -12057,7 +12256,8 @@
     "article-number": "111988",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "connectivity; graph; brain; network; functional"
   },
   {
     "@_fa": "true",
@@ -12116,7 +12316,8 @@
     "article-number": "107914",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "serverless; microfaas; adaptive; internet; computing"
   },
   {
     "@_fa": "true",
@@ -12176,7 +12377,8 @@
     "article-number": "101797",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "urdu; retrieval; language; document; framework"
   },
   {
     "@_fa": "true",
@@ -12236,7 +12438,8 @@
     "article-number": "101819",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "aspect; sentiment; attention; convolutional; networks"
   },
   {
     "@_fa": "true",
@@ -12295,7 +12498,8 @@
     "article-number": "110125",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "reflectance; diffusion; enhancement; light; latentdark"
   },
   {
     "@_fa": "true",
@@ -12354,7 +12558,8 @@
     "article-number": "111846",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "attention; action; channel; temporal; detection"
   },
   {
     "@_fa": "true",
@@ -12413,7 +12618,8 @@
     "article-number": "111996",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "student; backbone; model; db; behavior"
   },
   {
     "@_fa": "true",
@@ -12478,7 +12684,8 @@
     "article-number": "111888",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "pansharpening; convolution; network; neighbor; kernels"
   },
   {
     "@_fa": "true",
@@ -12537,7 +12744,8 @@
     "article-number": "111863",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "dehazing; nighttime; contrastive; regularization; dynamic"
   },
   {
     "@_fa": "true",
@@ -12608,7 +12816,8 @@
     "article-number": "107940",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "scheduling; dqn; rainbow; iiot; optimization"
   },
   {
     "@_fa": "true",
@@ -12667,7 +12876,8 @@
     "article-number": "111966",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "privacy; editing; videos; signals; physiological"
   },
   {
     "@_fa": "true",
@@ -12726,7 +12936,8 @@
     "article-number": "103377",
     "source-id": "21915",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "capacity; cloud; retirement; investment; inventory"
   },
   {
     "@_fa": "true",
@@ -12798,7 +13009,8 @@
     "article-number": "101815",
     "source-id": "27869",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "screams; speech; shouted; bersting; recognition"
   },
   {
     "@_fa": "true",
@@ -12858,7 +13070,8 @@
     "article-number": "101858",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "accentedness; asr; acoustic; predicting; features"
   },
   {
     "@_fa": "true",
@@ -12917,7 +13130,8 @@
     "article-number": "110090",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "matching; optimal; transport; multivariable; guided"
   },
   {
     "@_fa": "true",
@@ -12976,7 +13190,8 @@
     "article-number": "106307",
     "source-id": "12136",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "semiparametric; modal; regression; varying; coefficients"
   },
   {
     "@_fa": "true",
@@ -13041,7 +13256,8 @@
     "article-number": "111877",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "convolutional; detection; labels; object; fully"
   },
   {
     "@_fa": "true",
@@ -13100,7 +13316,8 @@
     "article-number": "116724",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "entropy; selection; impacts; feature; earth"
   },
   {
     "@_fa": "true",
@@ -13165,7 +13382,8 @@
     "article-number": "111816",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "diffusion; infrared; pid; image; model"
   },
   {
     "@_fa": "true",
@@ -13218,7 +13436,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "bevel; gears; spherical; tooth; involute"
   },
   {
     "@_fa": "true",
@@ -13277,7 +13496,8 @@
     "article-number": "110106",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "steganography; multimodal; generative; image; model"
   },
   {
     "@_fa": "true",
@@ -13331,7 +13551,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101270127",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "welding; workpieces; seam; extraction; butt"
   },
   {
     "@_fa": "true",
@@ -13390,7 +13611,8 @@
     "article-number": "103362",
     "source-id": "21915",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "pricing; opaque; social; strategy; network"
   },
   {
     "@_fa": "true",
@@ -13444,7 +13666,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101270127",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "pig; sensing; recognition; warning; disease"
   },
   {
     "@_fa": "true",
@@ -13503,7 +13726,8 @@
     "article-number": "110086",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sparse; antenna; beampattern; array; optimized"
   },
   {
     "@_fa": "true",
@@ -13568,7 +13792,8 @@
     "article-number": "111901",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "swarm; breeding; selection; hybrid; feature"
   },
   {
     "@_fa": "true",
@@ -13627,7 +13852,8 @@
     "article-number": "111918",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "privacy; dataset; vehicle; benchmark; protection"
   },
   {
     "@_fa": "true",
@@ -13681,7 +13907,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101270127",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "spatiotemporal; jiangsu; sensing; land; pattern"
   },
   {
     "@_fa": "true",
@@ -13734,7 +13961,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "workpieces; friction; finishing; bearing; magnetic"
   },
   {
     "@_fa": "true",
@@ -13793,7 +14021,8 @@
     "article-number": "110113",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tensor; multichannel; spectrum; multivariate; biomedical"
   },
   {
     "@_fa": "true",
@@ -13853,7 +14082,8 @@
     "article-number": "101826",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "treebanking; parsing; constituency; study; universal"
   },
   {
     "@_fa": "true",
@@ -13911,7 +14141,8 @@
     "subtypeDescription": "Article",
     "source-id": "12166",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "synchronization; attacks; pinning; neural; networks"
   },
   {
     "@_fa": "true",
@@ -13970,7 +14201,8 @@
     "article-number": "110143",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "segmentation; contour; divergence; morphology; leakage"
   },
   {
     "@_fa": "true",
@@ -14025,7 +14257,8 @@
     "subtypeDescription": "Article",
     "source-id": "17909",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "carpal; 4d; kinematic; metrics; imaging"
   },
   {
     "@_fa": "true",
@@ -14083,7 +14316,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "alloy; phase; 7si; fe; al"
   },
   {
     "@_fa": "true",
@@ -14142,7 +14376,8 @@
     "article-number": "107952",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "monitoring; hosts; network; univcar; super"
   },
   {
     "@_fa": "true",
@@ -14219,7 +14454,8 @@
     "article-number": "116676",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "convex; nonlinear; logistic; constrained; regression"
   },
   {
     "@_fa": "true",
@@ -14278,7 +14514,8 @@
     "article-number": "111929",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "infrared; tensor; neural; detection; target"
   },
   {
     "@_fa": "true",
@@ -14338,7 +14575,8 @@
     "article-number": "101821",
     "source-id": "27869",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "asr; frontend; backend; robust; recognition"
   },
   {
     "@_fa": "true",
@@ -14397,7 +14635,8 @@
     "article-number": "103361",
     "source-id": "21915",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "queueing; services; demand; permutable; consent"
   },
   {
     "@_fa": "true",
@@ -14457,7 +14696,8 @@
     "article-number": "101814",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "dementia; modality; auxiliary; fusion; detection"
   },
   {
     "@_fa": "true",
@@ -14515,7 +14755,8 @@
     "subtypeDescription": "Article",
     "source-id": "12166",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "scholes; volatility; reconstructing; equation; time"
   },
   {
     "@_fa": "true",
@@ -14586,7 +14827,8 @@
     "article-number": "128326",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "glycopeptides; glycosylation; immunoglobulin; colorectal; igg"
   },
   {
     "@_fa": "true",
@@ -14640,7 +14882,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101292646",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "cement; concrete; porous; aggregate; properties"
   },
   {
     "@_fa": "true",
@@ -14699,7 +14942,8 @@
     "article-number": "104031",
     "source-id": "24303",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "phishing; nudge; smishing; email; attacks"
   },
   {
     "@_fa": "true",
@@ -14758,7 +15002,8 @@
     "article-number": "107938",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "logs; mining; utility; process; episodes"
   },
   {
     "@_fa": "true",
@@ -14824,7 +15069,8 @@
     "article-number": "101816",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "speaker; speech; conversational; modular; distant"
   },
   {
     "@_fa": "true",
@@ -14882,7 +15128,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "capacitive; sensors; pressure; resistive; fabric"
   },
   {
     "@_fa": "true",
@@ -14947,7 +15194,8 @@
     "article-number": "107941",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "workflow; deadline; cloud; security; allocation"
   },
   {
     "@_fa": "true",
@@ -15006,7 +15254,8 @@
     "article-number": "110099",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "radar; mimo; decomposition; polyadic; eigenvalue"
   },
   {
     "@_fa": "true",
@@ -15065,7 +15314,8 @@
     "article-number": "111951",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "segmentation; rgb; semantic; alignment; implicit"
   },
   {
     "@_fa": "true",
@@ -15124,7 +15374,8 @@
     "article-number": "111951",
     "source-id": "24823",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "segmentation; rgb; semantic; alignment; implicit"
   },
   {
     "@_fa": "true",
@@ -15183,7 +15434,8 @@
     "article-number": "110122",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "radar; wideband; mimo; beampattern; dense"
   },
   {
     "@_fa": "true",
@@ -15242,7 +15494,8 @@
     "article-number": "107925",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "agent; distributed; team; assignment; heterogeneous"
   },
   {
     "@_fa": "true",
@@ -15301,7 +15554,8 @@
     "article-number": "136064",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "co2; coal; supercritical; upgrading; technology"
   },
   {
     "@_fa": "true",
@@ -15354,7 +15608,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100780798",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "dielectric; mems; elastomer; capacitive; frequency"
   },
   {
     "@_fa": "true",
@@ -15414,7 +15669,8 @@
     "article-number": "101820",
     "source-id": "27869",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "microphone; dasr; talker; asr; distant"
   },
   {
     "@_fa": "true",
@@ -15473,7 +15729,8 @@
     "article-number": "107939",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "operators; processing; memory; medical; image"
   },
   {
     "@_fa": "true",
@@ -15532,7 +15789,8 @@
     "article-number": "110091",
     "source-id": "25548",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "focus; 3d; compression; displays; quality"
   },
   {
     "@_fa": "true",
@@ -15597,7 +15855,8 @@
     "article-number": "107937",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "offloading; blockchain; edge; evolutionary; objective"
   },
   {
     "@_fa": "true",
@@ -15656,7 +15915,8 @@
     "article-number": "107912",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hpc; cp2k; fusion; gpdsp; simulations"
   },
   {
     "@_fa": "true",
@@ -15721,7 +15981,8 @@
     "article-number": "128417",
     "source-id": "24555",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "microplastic; μftir; analysis; limits; size"
   },
   {
     "@_fa": "true",
@@ -15780,7 +16041,8 @@
     "article-number": "107931",
     "source-id": "12264",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "storage; hierarchical; distributed; continuum; computing"
   },
   {
     "@_fa": "true",
@@ -15839,7 +16101,8 @@
     "article-number": "128464",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "biomarkers; sy5y; atra; omics; ftir"
   },
   {
     "@_fa": "true",
@@ -15898,7 +16161,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101097033",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "parkinson; herba; medicinal; cistanches; plant"
   },
   {
     "@_fa": "true",
@@ -15958,7 +16222,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101176855",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "stroke; endarterectomy; ischemic; carotid; surgical"
   },
   {
     "@_fa": "true",
@@ -16017,7 +16282,8 @@
     "article-number": "128469",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "microfluidic; hypoxia; oxygen; printed; dissolved"
   },
   {
     "@_fa": "true",
@@ -16077,7 +16343,8 @@
     "article-number": "123419",
     "source-id": "28200",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "biomaterials; inflammation; cancer; delivery; therapy"
   },
   {
     "@_fa": "true",
@@ -16136,7 +16403,8 @@
     "article-number": "107936",
     "source-id": "12264",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "blas; risc; processors; algorithms; optimization"
   },
   {
     "@_fa": "true",
@@ -16195,7 +16463,8 @@
     "article-number": "128463",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "copper; spectroscopy; ores; breakdown; laser"
   },
   {
     "@_fa": "true",
@@ -16260,7 +16529,8 @@
     "article-number": "112688",
     "source-id": "20586",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "porous; dehydrated; measurement; food; assessing"
   },
   {
     "@_fa": "true",
@@ -16319,7 +16589,8 @@
     "article-number": "128447",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fluorescent; glutathione; assays; probe; silver"
   },
   {
     "@_fa": "true",
@@ -16379,7 +16650,8 @@
     "article-number": "123493",
     "source-id": "28200",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hydrogel; osteochondral; magnesium; scaffold; biodegradable"
   },
   {
     "@_fa": "true",
@@ -16438,7 +16710,8 @@
     "article-number": "128390",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "electrophoresis; nanomaterials; biomedical; preparation; review"
   },
   {
     "@_fa": "true",
@@ -16497,7 +16770,8 @@
     "article-number": "128440",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sr2ndnbo6; perovskites; sr2tmnbo6; biomedical; double"
   },
   {
     "@_fa": "true",
@@ -16556,7 +16830,8 @@
     "article-number": "128473",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "electrochemical; gelatinase; neutrophil; nanomaterials; lipocalin"
   },
   {
     "@_fa": "true",
@@ -16615,7 +16890,8 @@
     "article-number": "101517",
     "source-id": "17899",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "graphene; implants; biodegradable; bone; composites"
   },
   {
     "@_fa": "true",
@@ -16674,7 +16950,8 @@
     "article-number": "128472",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "biosensors; pancreatic; markers; protein; detection"
   },
   {
     "@_fa": "true",
@@ -16733,7 +17010,8 @@
     "article-number": "128399",
     "source-id": "24555",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "chemresistors; explosives; detection; advancements; using"
   },
   {
     "@_fa": "true",
@@ -16792,7 +17070,8 @@
     "article-number": "101519",
     "source-id": "17899",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "nanocrystalline; alloys; microstructurally; mechanical; stable"
   },
   {
     "@_fa": "true",
@@ -16858,7 +17137,8 @@
     "article-number": "123465",
     "source-id": "28200",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "nanozymes; carbon; cancer; therapy; based"
   },
   {
     "@_fa": "true",
@@ -16923,7 +17203,8 @@
     "article-number": "101527",
     "source-id": "17899",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "bioprinting; bioinks; tissue; organ; dynamic"
   },
   {
     "@_fa": "true",
@@ -16982,7 +17263,8 @@
     "article-number": "101492",
     "source-id": "17899",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "superconductors; critical; current; density; advanced"
   },
   {
     "@_fa": "true",
@@ -17036,7 +17318,8 @@
     "subtypeDescription": "Article",
     "source-id": "14569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "efficiency; objective; economy; coordination; algorithm"
   },
   {
     "@_fa": "true",
@@ -17090,7 +17373,8 @@
     "subtypeDescription": "Article",
     "source-id": "14569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "word2vec; sentiment; dictionary; letter; pmi"
   },
   {
     "@_fa": "true",
@@ -17174,7 +17458,8 @@
           "$": "Green"
         }
       ]
-    }
+    },
+    "authkeywords": "microscopy; label; biological; heterogeneous; dynamic"
   },
   {
     "@_fa": "true",
@@ -17228,7 +17513,8 @@
     "subtypeDescription": "Article",
     "source-id": "14569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "reinforced; slabs; track; temperature; deformation"
   },
   {
     "@_fa": "true",
@@ -17302,7 +17588,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "expressway; fusion; line; reconstruction; data"
   },
   {
     "@_fa": "true",
@@ -17382,7 +17669,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "reliability; trams; maintenance; costs; fleet"
   },
   {
     "@_fa": "true",
@@ -17435,7 +17723,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100283367",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "machines; rotational; fault; recognition; machine"
   },
   {
     "@_fa": "true",
@@ -17487,7 +17776,8 @@
     "subtypeDescription": "Review",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "breast; algorithms; cancer; learning; diagnosis"
   },
   {
     "@_fa": "true",
@@ -17539,7 +17829,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "nursing; admission; predicting; algorithms; precision"
   },
   {
     "@_fa": "true",
@@ -17592,7 +17883,8 @@
     "article-number": "33",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "indicators; health; data; maternal; risk"
   },
   {
     "@_fa": "true",
@@ -17645,7 +17937,8 @@
     "article-number": "50",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "coding; learning; expertise; machine; model"
   },
   {
     "@_fa": "true",
@@ -17698,7 +17991,8 @@
     "article-number": "46",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "das28; rheumatoid; arthritis; rituximab; prediction"
   },
   {
     "@_fa": "true",
@@ -17757,7 +18051,8 @@
     "article-number": "38",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "stroke; stenosis; carotid; prediction; learning"
   },
   {
     "@_fa": "true",
@@ -17810,7 +18105,8 @@
     "article-number": "62",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "kidney; prediction; chronic; learning; systematic"
   },
   {
     "@_fa": "true",
@@ -17863,7 +18159,8 @@
     "article-number": "61",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "multimodal; narrative; deep; prognosis; models"
   },
   {
     "@_fa": "true",
@@ -17916,7 +18213,8 @@
     "article-number": "37",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "pneumonia; densenet; learning; model; classification"
   },
   {
     "@_fa": "true",
@@ -17969,7 +18267,8 @@
     "article-number": "63",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "colorectal; algorithmic; cancer; intelligence; diagnosis"
   },
   {
     "@_fa": "true",
@@ -18022,7 +18321,8 @@
     "article-number": "53",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "diagnostics; medical; image; intelligence; molecular"
   },
   {
     "@_fa": "true",
@@ -18075,7 +18375,8 @@
     "article-number": "45",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "liver; meldpredict; predictive; forecast; score"
   },
   {
     "@_fa": "true",
@@ -18128,7 +18429,8 @@
     "article-number": "32",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sepsis; sxi; numerical; lnm; prediction"
   },
   {
     "@_fa": "true",
@@ -18181,7 +18483,8 @@
     "article-number": "60",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "atrial; fibrillation; detection; artificial; intelligence"
   },
   {
     "@_fa": "true",
@@ -18234,7 +18537,8 @@
     "article-number": "55",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "healthcare; algorithm; implementation; adoption; development"
   },
   {
     "@_fa": "true",
@@ -18287,7 +18591,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100236814",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "activity; students; ai; feedback; learning"
   },
   {
     "@_fa": "true",
@@ -18340,7 +18645,8 @@
     "article-number": "54",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "dermatology; cosmetics; scanner; color; digital"
   },
   {
     "@_fa": "true",
@@ -18413,7 +18719,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "wavelet; bearing; cnn; fault; physics"
   },
   {
     "@_fa": "true",
@@ -18467,7 +18774,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100258621",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "student; dependence; intelligence; tools; assessing"
   },
   {
     "@_fa": "true",
@@ -18526,7 +18834,8 @@
     "article-number": "31",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "glaucoma; autoencoder; detection; visual; anomaly"
   },
   {
     "@_fa": "true",
@@ -18579,7 +18888,8 @@
     "article-number": "51",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fairness; disparate; healthcare; ai; concise"
   },
   {
     "@_fa": "true",
@@ -18632,7 +18942,8 @@
     "article-number": "64",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "intensive; predictive; management; scoping; tools"
   },
   {
     "@_fa": "true",
@@ -18685,7 +18996,8 @@
     "article-number": "57",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "healthcare; patient; intelligence; safety; improvement"
   },
   {
     "@_fa": "true",
@@ -18739,7 +19051,8 @@
     "subtypeDescription": "Article",
     "source-id": "19900193861",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "haptic; blindness; vision; museum; impairments"
   },
   {
     "@_fa": "true",
@@ -18792,7 +19105,8 @@
     "article-number": "27",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "diagnostics; ai; adaptive; patients; regulatory"
   },
   {
     "@_fa": "true",
@@ -18851,7 +19165,8 @@
     "article-number": "34",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "screening; language; systematic; abstract; title"
   },
   {
     "@_fa": "true",
@@ -18904,7 +19219,8 @@
     "article-number": "29",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fibromyalgia; research; exploration; artificial; intelligence"
   },
   {
     "@_fa": "true",
@@ -18957,7 +19273,8 @@
     "article-number": "59",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "obesity; tea; beauty; artificial; oolong"
   },
   {
     "@_fa": "true",
@@ -19030,7 +19347,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "heater; manta; hammerstein; foraging; optimization"
   },
   {
     "@_fa": "true",
@@ -19083,7 +19401,8 @@
     "article-number": "52",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "writing; chatgpt; narrative; medical; intelligence"
   },
   {
     "@_fa": "true",
@@ -19137,7 +19456,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101047144",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "protective; classification; risk; health; students"
   },
   {
     "@_fa": "true",
@@ -19190,7 +19510,8 @@
     "article-number": "48",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ophthalmology; gpt; residency; exams; performance"
   },
   {
     "@_fa": "true",
@@ -19243,7 +19564,8 @@
     "article-number": "43",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "consultations; practice; transcribe; summarise; general"
   },
   {
     "@_fa": "true",
@@ -19316,7 +19638,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "igbt; lifetime; solder; modules; uncertainty"
   },
   {
     "@_fa": "true",
@@ -19375,7 +19698,8 @@
     "article-number": "35",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "endoscopy; yolov8; colon; polyps; detecting"
   },
   {
     "@_fa": "true",
@@ -19429,7 +19753,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100258630",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "parental; tribal; students; involvement; bengal"
   },
   {
     "@_fa": "true",
@@ -19482,7 +19807,8 @@
     "article-number": "40",
     "source-id": "21101063739",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "retrieval; search; medical; classification; icpc"
   },
   {
     "@_fa": "true",
@@ -19555,7 +19881,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "inspection; mosque; crack; visual; method"
   },
   {
     "@_fa": "true",
@@ -19610,7 +19937,8 @@
     "article-number": "e24",
     "source-id": "27640",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "epistemology; artisanal; perspectives; thinking; hands"
   },
   {
     "@_fa": "true",
@@ -19663,7 +19991,8 @@
     "subtypeDescription": "Article",
     "source-id": "19700183008",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ai; algorithms; democracy; book; simons"
   },
   {
     "@_fa": "true",
@@ -19716,7 +20045,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "biomarkers; neutrophil; myocardial; infarction; acute"
   },
   {
     "@_fa": "true",
@@ -19769,7 +20099,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "astrocyte; gadd45b; ischemic; phenotype; matter"
   },
   {
     "@_fa": "true",
@@ -19822,7 +20153,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "chondrocytes; exosomes; metformin; marrow; cell"
   },
   {
     "@_fa": "true",
@@ -19895,7 +20227,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "circular; economy; economies; bibliometric; emerging"
   },
   {
     "@_fa": "true",
@@ -19953,7 +20286,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "absorption; peek; manufacturing; additive; metastructure"
   },
   {
     "@_fa": "true",
@@ -20011,7 +20345,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "alloy; microstructure; ni47ti33hf20; formability; shape"
   },
   {
     "@_fa": "true",
@@ -20081,7 +20416,8 @@
     "subtypeDescription": "Review",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "braze; alloy; joints; ag; composites"
   },
   {
     "@_fa": "true",
@@ -20139,7 +20475,8 @@
     "subtypeDescription": "Review",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "photocatalytic; nanomaterials; electron; microscopy; heterogeneous"
   },
   {
     "@_fa": "true",
@@ -20192,7 +20529,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "osteoporosis; screening; models; diagnosis; learning"
   },
   {
     "@_fa": "true",
@@ -20251,7 +20589,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "bioinformatics; autophagy; fibrosis; genes; pulmonary"
   },
   {
     "@_fa": "true",
@@ -20304,7 +20643,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "osteoarthritis; knee; deep; learning; diagnosis"
   },
   {
     "@_fa": "true",
@@ -20363,7 +20703,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "cuproptosis; stroke; biomarkers; ischemic; genes"
   },
   {
     "@_fa": "true",
@@ -20423,7 +20764,8 @@
     "subtypeDescription": "Conference Paper",
     "source-id": "21100198528",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tractors; gps; agricultural; iot; monitoring"
   },
   {
     "@_fa": "true",
@@ -20495,7 +20837,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "stress; mobile; peer; technologies; assessment"
   },
   {
     "@_fa": "true",
@@ -20548,7 +20891,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "osteonecrosis; steroid; femoral; biomarkers; immunodiagnostic"
   },
   {
     "@_fa": "true",
@@ -20601,7 +20945,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "medicine; omics; chinese; prediction; artificial"
   },
   {
     "@_fa": "true",
@@ -20661,7 +21006,8 @@
     "article-number": "134085",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adsorption; wastewater; oils; coal; multitask"
   },
   {
     "@_fa": "true",
@@ -20721,7 +21067,8 @@
     "article-number": "133899",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "membranes; purification; adsorption; inorganic; mof"
   },
   {
     "@_fa": "true",
@@ -20787,7 +21134,8 @@
     "article-number": "133996",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hydrogen; adsorption; purification; adsorbents; fuel"
   },
   {
     "@_fa": "true",
@@ -20847,7 +21195,8 @@
     "article-number": "133943",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ofloxacin; adsorption; optimization; nb2ctx; algorithm"
   },
   {
     "@_fa": "true",
@@ -20907,7 +21256,8 @@
     "article-number": "133964",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "foam; ptfe; filtration; porosity; materials"
   },
   {
     "@_fa": "true",
@@ -20967,7 +21317,8 @@
     "article-number": "133892",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "graphene; co2; carbon; membranes; nanotubes"
   },
   {
     "@_fa": "true",
@@ -21033,7 +21384,8 @@
     "article-number": "134051",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "catalytic; oxidation; so2; tio2; h2o"
   },
   {
     "@_fa": "true",
@@ -21093,7 +21445,8 @@
     "article-number": "133995",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "photocatalytic; antibiotic; cecs; removal; materials"
   },
   {
     "@_fa": "true",
@@ -21153,7 +21506,8 @@
     "article-number": "133970",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "desalination; solar; water; fabrication; design"
   },
   {
     "@_fa": "true",
@@ -21212,7 +21566,8 @@
     "article-number": "126443",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hyperspectral; apples; bagging; imaging; learning"
   },
   {
     "@_fa": "true",
@@ -21271,7 +21626,8 @@
     "article-number": "126573",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "baijiu; porphyrin; cloud; daqu; temperature"
   },
   {
     "@_fa": "true",
@@ -21336,7 +21692,8 @@
     "article-number": "126484",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "macronutrients; chemometrics; cheese; spectroscopy; imaging"
   },
   {
     "@_fa": "true",
@@ -21395,7 +21752,8 @@
     "article-number": "126528",
     "source-id": "24530",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "microplastics; hyperspectral; sea; salt; pollution"
   },
   {
     "@_fa": "true",
@@ -21455,7 +21813,8 @@
     "article-number": "123774",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "solar; forecasts; multimodal; sky; learning"
   },
   {
     "@_fa": "true",
@@ -21514,7 +21873,8 @@
     "article-number": "126571",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "tea; moisture; prediction; leaf; learning"
   },
   {
     "@_fa": "true",
@@ -21573,7 +21933,8 @@
     "article-number": "126483",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "supervised; selection; spectral; learning; bssl"
   },
   {
     "@_fa": "true",
@@ -21632,7 +21993,8 @@
     "article-number": "126546",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "polyurethane; degradation; polystyrene; uv; ptir"
   },
   {
     "@_fa": "true",
@@ -21697,7 +22059,8 @@
     "article-number": "135981",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "co2; anhydrase; carbonic; modeling; artificial"
   },
   {
     "@_fa": "true",
@@ -21756,7 +22119,8 @@
     "article-number": "126412",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "raman; spectroscopy; deltamethrin; uv; water"
   },
   {
     "@_fa": "true",
@@ -21815,7 +22179,8 @@
     "article-number": "126568",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "micropore; bioassays; fluid; sensor; detection"
   },
   {
     "@_fa": "true",
@@ -21874,7 +22239,8 @@
     "article-number": "135972",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fuel; optimizing; aviation; sustainable; chains"
   },
   {
     "@_fa": "true",
@@ -21934,7 +22300,8 @@
     "article-number": "123843",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "photovoltaic; cluster; graph; spatiotemporal; prediction"
   },
   {
     "@_fa": "true",
@@ -21993,7 +22360,8 @@
     "article-number": "126492",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "raman; urine; kidney; spectroscopy; detection"
   },
   {
     "@_fa": "true",
@@ -22052,7 +22420,8 @@
     "article-number": "129557",
     "source-id": "25170",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "smoothing; prior; gradient; contrast; image"
   },
   {
     "@_fa": "true",
@@ -22111,7 +22480,8 @@
     "article-number": "136038",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "shale; boltzmann; simulation; pore; fracture"
   },
   {
     "@_fa": "true",
@@ -22170,7 +22540,8 @@
     "article-number": "116694",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "subsampling; tensor; optimization; squares; statistical"
   },
   {
     "@_fa": "true",
@@ -22235,7 +22606,8 @@
     "article-number": "116675",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sparse; nonlinear; gradient; dynamics; identification"
   },
   {
     "@_fa": "true",
@@ -22294,7 +22666,8 @@
     "article-number": "116730",
     "source-id": "23847",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "neurons; activation; addition; layers; functions"
   },
   {
     "@_fa": "true",
@@ -22353,7 +22726,8 @@
     "article-number": "126567",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "spectroscopy; spectral; mems; nir; neural"
   },
   {
     "@_fa": "true",
@@ -22413,7 +22787,8 @@
     "article-number": "123775",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "terrain; optimization; wind; farm; distributed"
   },
   {
     "@_fa": "true",
@@ -22472,7 +22847,8 @@
     "article-number": "126336",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "autoencoder; infrared; denoising; spectral; attention"
   },
   {
     "@_fa": "true",
@@ -22531,7 +22907,8 @@
     "article-number": "129578",
     "source-id": "25170",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "polynomials; polynomial; biorthogonal; regression; recursive"
   },
   {
     "@_fa": "true",
@@ -22590,7 +22967,8 @@
     "article-number": "126505",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "spectroscopy; palm; infrared; fruit; chemometric"
   },
   {
     "@_fa": "true",
@@ -22650,7 +23028,8 @@
     "article-number": "123826",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "offshore; maintenance; forecasting; opportunistic; wind"
   },
   {
     "@_fa": "true",
@@ -22709,7 +23088,8 @@
     "article-number": "116733",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "denoising; diffusion; multiscale; nonlinear; spectral"
   },
   {
     "@_fa": "true",
@@ -22768,7 +23148,8 @@
     "article-number": "116690",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "quantile; longitudinal; regression; hmc; tailed"
   },
   {
     "@_fa": "true",
@@ -22827,7 +23208,8 @@
     "article-number": "136004",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "mofs; oxygen; h2s; multiscale; ch4"
   },
   {
     "@_fa": "true",
@@ -22886,7 +23268,8 @@
     "article-number": "126481",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sers; biomarkers; lung; cancer; detection"
   },
   {
     "@_fa": "true",
@@ -22946,7 +23329,8 @@
     "article-number": "123763",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "lubrication; drivetrains; turbine; bearing; gear"
   },
   {
     "@_fa": "true",
@@ -23011,7 +23395,8 @@
     "article-number": "135948",
     "source-id": "16313",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "microspectroscopy; microtexture; plastic; ftir; chemical"
   },
   {
     "@_fa": "true",
@@ -23070,7 +23455,8 @@
     "article-number": "116716",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "optimization; spherical; constraint; quadratic; quartic"
   },
   {
     "@_fa": "true",
@@ -23129,7 +23515,8 @@
     "article-number": "129565",
     "source-id": "25170",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "rhythmic; complexity; music; dynamics; classical"
   },
   {
     "@_fa": "true",
@@ -23188,7 +23575,8 @@
     "article-number": "116729",
     "source-id": "23847",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "portfolio; optimization; sparse; bilevel; robust"
   },
   {
     "@_fa": "true",
@@ -23247,7 +23635,8 @@
     "article-number": "116727",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "aneurysm; models; rupture; prediction; risk"
   },
   {
     "@_fa": "true",
@@ -23307,7 +23696,8 @@
     "article-number": "123820",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "icing; turbine; blade; diagnosis; wind"
   },
   {
     "@_fa": "true",
@@ -23366,7 +23756,8 @@
     "article-number": "135936",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "afterburner; combustion; sofc; fuel; carbon"
   },
   {
     "@_fa": "true",
@@ -23426,7 +23817,8 @@
     "article-number": "123772",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "photovoltaic; degradation; year; analysis; evaluation"
   },
   {
     "@_fa": "true",
@@ -23485,7 +23877,8 @@
     "article-number": "136009",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "spill; confined; dynamics; gas; heat"
   },
   {
     "@_fa": "true",
@@ -23544,7 +23937,8 @@
     "article-number": "116693",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "convex; algorithm; restoration; generalization; splitting"
   },
   {
     "@_fa": "true",
@@ -23603,7 +23997,8 @@
     "article-number": "116709",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "optimization; spectral; cg; restoration; algorithm"
   },
   {
     "@_fa": "true",
@@ -23662,7 +24057,8 @@
     "article-number": "129596",
     "source-id": "25170",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "taxi; autonomous; evolutionary; monitoring; game"
   },
   {
     "@_fa": "true",
@@ -23728,7 +24124,8 @@
     "article-number": "123844",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "pv; optimizers; optimizing; dc; performance"
   },
   {
     "@_fa": "true",
@@ -23787,7 +24184,8 @@
     "article-number": "126355",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "walnuts; hyperspectral; imaging; vnir; acid"
   },
   {
     "@_fa": "true",
@@ -23846,7 +24244,8 @@
     "article-number": "135959",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "nanocatalysts; hydrazine; fuel; diesel; combustion"
   },
   {
     "@_fa": "true",
@@ -23905,7 +24304,8 @@
     "article-number": "135982",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "co2; solvents; combustion; amine; capture"
   },
   {
     "@_fa": "true",
@@ -23964,7 +24364,8 @@
     "article-number": "126543",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "pears; hyperspectral; halys; halyomorpha; imaging"
   },
   {
     "@_fa": "true",
@@ -24023,7 +24424,8 @@
     "article-number": "116683",
     "source-id": "23847",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "extragradient; pseudomonotone; bilevel; constraint; tseng"
   },
   {
     "@_fa": "true",
@@ -24082,7 +24484,8 @@
     "article-number": "126572",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "lithium; overcharge; electrolyte; dmdohc; batteries"
   },
   {
     "@_fa": "true",
@@ -24142,7 +24545,8 @@
     "article-number": "123767",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "harvester; pipelines; energy; powering; sensor"
   },
   {
     "@_fa": "true",
@@ -24213,7 +24617,8 @@
     "article-number": "126513",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "microspectroscopy; raman; metabolic; cocultures; d2o"
   },
   {
     "@_fa": "true",
@@ -24273,7 +24678,8 @@
     "article-number": "123714",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "photovoltaic; shaving; peak; grid; tilt"
   },
   {
     "@_fa": "true",
@@ -24332,7 +24738,8 @@
     "article-number": "126507",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "metabolic; metabolome; dementia; fingerprinting; plasma"
   },
   {
     "@_fa": "true",
@@ -24391,7 +24798,8 @@
     "article-number": "136034",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "wax; bitumen; rubber; rubberized; scrap"
   },
   {
     "@_fa": "true",
@@ -24450,7 +24858,8 @@
     "article-number": "126532",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "cr3; fe3; rhodamine; imaging; 6g"
   },
   {
     "@_fa": "true",
@@ -24509,7 +24918,8 @@
     "article-number": "135994",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "carbonate; fluids; dioxide; silicon; wettability"
   },
   {
     "@_fa": "true",
@@ -24568,7 +24978,8 @@
     "article-number": "135949",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "coal; ash; leaching; alkali; impurity"
   },
   {
     "@_fa": "true",
@@ -24627,7 +25038,8 @@
     "article-number": "126542",
     "source-id": "24530",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "strawberries; hyperspectral; infrared; vitamin; soluble"
   },
   {
     "@_fa": "true",
@@ -24687,7 +25099,8 @@
     "article-number": "123786",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "pyrolysis; bioenergy; buckthorn; kinetics; thermodynamics"
   },
   {
     "@_fa": "true",
@@ -24747,7 +25160,8 @@
     "article-number": "123805",
     "source-id": "27569",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ventilation; façades; buildings; solar; radiation"
   },
   {
     "@_fa": "true",
@@ -24806,7 +25220,8 @@
     "article-number": "136022",
     "source-id": "16313",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hydrogen; ignition; ch4; release; self"
   },
   {
     "@_fa": "true",
@@ -24865,7 +25280,8 @@
     "article-number": "126541",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "pathogen; infrared; spectroscopy; respiratory; infections"
   },
   {
     "@_fa": "true",
@@ -24924,7 +25340,8 @@
     "article-number": "126587",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "chlortetracycline; tetracycline; fluorescence; residues; polymer"
   },
   {
     "@_fa": "true",
@@ -24984,7 +25401,8 @@
     "article-number": "133882",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "biochar; biomass; pyrolysis; adsorption; co2"
   },
   {
     "@_fa": "true",
@@ -25044,7 +25462,8 @@
     "article-number": "133879",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "rhodochrosite; qsar; chemical; flotation; quantum"
   },
   {
     "@_fa": "true",
@@ -25104,7 +25523,8 @@
     "article-number": "133487",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "carbon; automl; automated; framework; optimization"
   },
   {
     "@_fa": "true",
@@ -25164,7 +25584,8 @@
     "article-number": "133925",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "mbr; effluent; environmental; a2o; quality"
   },
   {
     "@_fa": "true",
@@ -25224,7 +25645,8 @@
     "article-number": "133864",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ethylene; frameworks; organic; ethane; separation"
   },
   {
     "@_fa": "true",
@@ -25284,7 +25706,8 @@
     "article-number": "133939",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "mof; ai; screening; objective; materials"
   },
   {
     "@_fa": "true",
@@ -25344,7 +25767,8 @@
     "article-number": "133921",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "azobenzene; adsorption; luminescent; adsorbent; co2"
   },
   {
     "@_fa": "true",
@@ -25404,7 +25828,8 @@
     "article-number": "133940",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "osmosis; caco3; membrane; pressure; air"
   },
   {
     "@_fa": "true",
@@ -25464,7 +25889,8 @@
     "article-number": "133922",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "nucleoside; antiviral; periodate; sunlight; degradation"
   },
   {
     "@_fa": "true",
@@ -25524,7 +25950,8 @@
     "article-number": "133975",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adsorbents; nanorobotic; remediation; janus; micro"
   },
   {
     "@_fa": "true",
@@ -25584,7 +26011,8 @@
     "article-number": "133860",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "waste; lithium; batteries; metals; spent"
   },
   {
     "@_fa": "true",
@@ -25657,7 +26085,8 @@
     "article-number": "e34672",
     "source-id": "21101194101",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "bibliometric; maturity; industry; smes; assessment"
   },
   {
     "@_fa": "true",
@@ -25712,7 +26141,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101152701",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "endometrial; hysterectomy; carcinoma; prognostic; nomogram"
   },
   {
     "@_fa": "true",
@@ -25770,7 +26200,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "alloy; entropy; strengthening; atomic; coniv"
   },
   {
     "@_fa": "true",
@@ -25828,7 +26259,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "optimization; biodegradable; magnesium; alloys; objective"
   },
   {
     "@_fa": "true",
@@ -25887,7 +26319,8 @@
     "article-number": "104304",
     "source-id": "21100390177",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "blooms; sea; attention; ulva; learning"
   },
   {
     "@_fa": "true",
@@ -25945,7 +26378,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ga2o3; laser; stealth; dicing; experimental"
   },
   {
     "@_fa": "true",
@@ -26009,7 +26443,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "alloy; mg; melts; kinetic; simulations"
   },
   {
     "@_fa": "true",
@@ -26069,7 +26504,8 @@
     "article-number": "119241",
     "source-id": "13030",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "transients; instrument; dynamical; reed; musical"
   },
   {
     "@_fa": "true",
@@ -26128,7 +26564,8 @@
     "article-number": "104259",
     "source-id": "21100390177",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "glaciers; fjördal; greenland; iceland; biogeophysical"
   },
   {
     "@_fa": "true",
@@ -26188,7 +26625,8 @@
     "article-number": "119229",
     "source-id": "13030",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "scattering; classification; acoustic; neural; shape"
   },
   {
     "@_fa": "true",
@@ -26263,7 +26701,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "fuzzy; efficiency; buildings; energy; logic"
   },
   {
     "@_fa": "true",
@@ -26322,7 +26761,8 @@
     "article-number": "104273",
     "source-id": "21100390177",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "sundarban; coastal; socioeconomic; vulnerability; indian"
   },
   {
     "@_fa": "true",
@@ -26380,7 +26820,8 @@
     "subtypeDescription": "Article",
     "source-id": "12330",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "mgh2; ceo2; hydrogen; catalytic; storage"
   },
   {
     "@_fa": "true",
@@ -26439,7 +26880,8 @@
     "article-number": "104291",
     "source-id": "21100390177",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "leachable; tire; aquatic; compounds; wear"
   },
   {
     "@_fa": "true",
@@ -26512,7 +26954,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "mpc; fanng; networks; neural; artificial"
   },
   {
     "@_fa": "true",
@@ -26585,7 +27028,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "attacks; information; perceived; learning; channel"
   },
   {
     "@_fa": "true",
@@ -26638,7 +27082,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101064700",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hyperparameter; extraction; tpuxtract; exhaustive; framework"
   },
   {
     "@_fa": "true",
@@ -26711,7 +27156,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "attacks; power; trace; data; analysis"
   },
   {
     "@_fa": "true",
@@ -26764,7 +27210,8 @@
     "subtypeDescription": "Article",
     "source-id": "6200180182",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "joints; knee; material; computational; models"
   },
   {
     "@_fa": "true",
@@ -26837,7 +27284,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "banking; smartphone; bank; satisfaction; financial"
   },
   {
     "@_fa": "true",
@@ -26890,7 +27338,8 @@
     "subtypeDescription": "Article",
     "source-id": "21100408192",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "accounting; financial; banks; alignment; theory"
   },
   {
     "@_fa": "true",
@@ -26950,7 +27399,8 @@
     "article-number": "126482",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fingerprints; uterine; sers; diagnosis; label"
   },
   {
     "@_fa": "true",
@@ -27009,7 +27459,8 @@
     "article-number": "125590",
     "source-id": "16343",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "electrochemical; electrodes; perovskite; oxide; entropy"
   },
   {
     "@_fa": "true",
@@ -27069,7 +27520,8 @@
     "article-number": "110905",
     "source-id": "12946",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "igrfxg; multilingual; emotion; speech; ensemble"
   },
   {
     "@_fa": "true",
@@ -27129,7 +27581,8 @@
     "article-number": "133824",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hydrophobic; membrane; mofs; humidity; c2h6"
   },
   {
     "@_fa": "true",
@@ -27189,7 +27642,8 @@
     "article-number": "110858",
     "source-id": "12946",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "enhancement; sparsely; fsformer; speech; features"
   },
   {
     "@_fa": "true",
@@ -27249,7 +27703,8 @@
     "article-number": "110889",
     "source-id": "12946",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "fault; graph; networks; convolutional; neural"
   },
   {
     "@_fa": "true",
@@ -27309,7 +27764,8 @@
     "article-number": "110877",
     "source-id": "12946",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "adversarial; discriminator; bearing; fault; diagnosis"
   },
   {
     "@_fa": "true",
@@ -27369,7 +27825,8 @@
     "article-number": "110876",
     "source-id": "12946",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "aeroacoustic; spectrum; regression; predictions; empirical"
   },
   {
     "@_fa": "true",
@@ -27434,7 +27891,8 @@
     "article-number": "125578",
     "source-id": "16343",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "catalysts; hydrogenation; co2; iron; alcohols"
   },
   {
     "@_fa": "true",
@@ -27500,7 +27958,8 @@
     "article-number": "110865",
     "source-id": "12946",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "denoising; acoustic; underwater; spectrum; attention"
   },
   {
     "@_fa": "true",
@@ -27560,7 +28019,8 @@
     "article-number": "110903",
     "source-id": "12946",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "bearing; fault; feature; diagnosis; kolmogorov"
   },
   {
     "@_fa": "true",
@@ -27620,7 +28080,8 @@
     "article-number": "110886",
     "source-id": "12946",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "wideband; spectrum; frequency; doa; estimation"
   },
   {
     "@_fa": "true",
@@ -27686,7 +28147,8 @@
     "article-number": "126480",
     "source-id": "24530",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "dihydrouracil; intermolecular; spectroscopy; thz; interactions"
   },
   {
     "@_fa": "true",
@@ -27746,7 +28208,8 @@
     "article-number": "133875",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "imprinting; adsorption; bsa; protein; surface"
   },
   {
     "@_fa": "true",
@@ -27806,7 +28269,8 @@
     "article-number": "133816",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "starch; carboxymethyl; sodium; cation; talc"
   },
   {
     "@_fa": "true",
@@ -27865,7 +28329,8 @@
     "article-number": "125608",
     "source-id": "16343",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "catalysis; sulfur; spin; electron; zn"
   },
   {
     "@_fa": "true",
@@ -27925,7 +28390,8 @@
     "article-number": "133761",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "linixcoymn; battery; solvent; extraction; leaching"
   },
   {
     "@_fa": "true",
@@ -27985,7 +28451,8 @@
     "article-number": "133866",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "microscale; macroscale; visualization; phase; scales"
   },
   {
     "@_fa": "true",
@@ -28045,7 +28512,8 @@
     "article-number": "110893",
     "source-id": "12946",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "metamaterial; acoustic; slits; hollowed; star"
   },
   {
     "@_fa": "true",
@@ -28104,7 +28572,8 @@
     "article-number": "125580",
     "source-id": "16343",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "cu1pd1; electrocatalyst; hydrogen; bonds; coordination"
   },
   {
     "@_fa": "true",
@@ -28163,7 +28632,8 @@
     "article-number": "125529",
     "source-id": "16343",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "h2o2; fenton; h2o; mil53; fe"
   },
   {
     "@_fa": "true",
@@ -28222,7 +28692,8 @@
     "article-number": "125616",
     "source-id": "16343",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hydrogen; nanotubes; catalysis; carbon; microwave"
   },
   {
     "@_fa": "true",
@@ -28281,7 +28752,8 @@
     "article-number": "125551",
     "source-id": "16343",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "catalytic; sr; fuel; oxide; cathodes"
   },
   {
     "@_fa": "true",
@@ -28341,7 +28813,8 @@
     "article-number": "133718",
     "source-id": "14292",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "hemodialysis; membrane; materials; advancements; comprehensive"
   },
   {
     "@_fa": "true",
@@ -28416,7 +28889,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "cryptanalysis; des; linear; learning; improved"
   },
   {
     "@_fa": "true",
@@ -28469,7 +28943,8 @@
     "subtypeDescription": "Article",
     "source-id": "21101119543",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "education; student; predicting; learning; intelligence"
   },
   {
     "@_fa": "true",
@@ -28524,7 +28999,8 @@
     "article-number": "128",
     "source-id": "21101046769",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "concrete; prediction; strength; optimization; mix"
   },
   {
     "@_fa": "true",
@@ -28579,7 +29055,8 @@
     "article-number": "16651",
     "source-id": "21100200805",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "classifiers; standardization; interpretability; biology; accuracy"
   },
   {
     "@_fa": "true",
@@ -28654,7 +29131,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "sepsis; hospitalized; icu; mortality; screening"
   },
   {
     "@_fa": "true",
@@ -28728,7 +29206,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "business; management; machine; learning; intelligence"
   },
   {
     "@_fa": "true",
@@ -28803,7 +29282,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "melanoma; dermoscopy; deep; prognosis; machine"
   },
   {
     "@_fa": "true",
@@ -28865,7 +29345,8 @@
     "article-number": "42",
     "source-id": "14874",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "ventriculostomy; hydrocephalus; accuracy; prediction; endoscopic"
   },
   {
     "@_fa": "true",
@@ -28921,7 +29402,8 @@
     "article-number": "175",
     "source-id": "13942",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "incision; extraction; nomogram; lenticule; smile"
   },
   {
     "@_fa": "true",
@@ -28980,7 +29462,8 @@
     "article-number": "106720",
     "source-id": "38003",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "soil; tillage; resistance; prediction; ensemble"
   },
   {
     "@_fa": "true",
@@ -29055,7 +29538,8 @@
           "$": "Green"
         }
       ]
-    }
+    },
+    "authkeywords": "discovery; library; federated; kmol; learning"
   },
   {
     "@_fa": "true",
@@ -29130,7 +29614,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "quantum; offloading; lyapunov; mec; networks"
   },
   {
     "@_fa": "true",
@@ -29204,7 +29689,8 @@
           "$": "Hybrid Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "faculty; sentiment; feedback; educational; advanced"
   },
   {
     "@_fa": "true",
@@ -29258,7 +29744,8 @@
     "article-number": "913",
     "source-id": "21101038561",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "cancer; lung; learning; data; omics"
   },
   {
     "@_fa": "true",
@@ -29338,7 +29825,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "ensemble; thyroid; prediction; feature; selection"
   },
   {
     "@_fa": "true",
@@ -29399,7 +29887,8 @@
     "article-number": "913",
     "source-id": "21100451321",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "mlomics; omics; cancer; database; multi"
   },
   {
     "@_fa": "true",
@@ -29454,7 +29943,8 @@
     "article-number": "17993",
     "source-id": "21100200805",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "toxicity; drug; predictive; learning; statistical"
   },
   {
     "@_fa": "true",
@@ -29528,7 +30018,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "structural; diagnosis; health; learning; machine"
   },
   {
     "@_fa": "true",
@@ -29583,7 +30074,8 @@
     "article-number": "551",
     "source-id": "12550",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "birth; africa; reproductive; predict; women"
   },
   {
     "@_fa": "true",
@@ -29657,7 +30149,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "texture; ebsd; enhanced; learning; data"
   },
   {
     "@_fa": "true",
@@ -29718,7 +30211,8 @@
     "article-number": "389",
     "source-id": "24341",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "caries; learning; predict; childhood; machine"
   },
   {
     "@_fa": "true",
@@ -29805,7 +30299,8 @@
           "$": "Green"
         }
       ]
-    }
+    },
+    "authkeywords": "queries; query; processing; algebra; linear"
   },
   {
     "@_fa": "true",
@@ -29879,7 +30374,8 @@
           "$": "Gold"
         }
       ]
-    }
+    },
+    "authkeywords": "biomedical; data; learning; machine; health"
   },
   {
     "@_fa": "true",
@@ -29950,7 +30446,8 @@
     "article-number": "200269",
     "source-id": "21101091183",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "resilience; urban; learning; machine; research"
   },
   {
     "@_fa": "true",
@@ -30005,7 +30502,8 @@
     "article-number": "264",
     "source-id": "22487",
     "openaccess": "1",
-    "openaccessFlag": true
+    "openaccessFlag": true,
+    "authkeywords": "mortality; readmission; prediction; meta; learning"
   },
   {
     "@_fa": "true",
@@ -30088,7 +30586,8 @@
           "$": "Green"
         }
       ]
-    }
+    },
+    "authkeywords": "models; deteriorating; learning; health; responsiveness"
   },
   {
     "@_fa": "true",
@@ -30141,6 +30640,7 @@
     "subtypeDescription": "Article",
     "source-id": "21101065891",
     "openaccess": "0",
-    "openaccessFlag": false
+    "openaccessFlag": false,
+    "authkeywords": "particulate; air; pm2; prediction; learning"
   }
 ]
