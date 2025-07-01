@@ -13,7 +13,7 @@ db = mysql.connector.connect(
 cursor = db.cursor()
 
 # 2) Charger les articles extraits
-with open("../data/articles_raw.json", "r", encoding="utf-8") as f:
+with open("../data/articles_clean.json", "r", encoding="utf-8") as f:
     articles = json.load(f)
 
 # 3) Dictionnaires pour éviter les doublons en mémoire
