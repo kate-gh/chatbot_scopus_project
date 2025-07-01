@@ -1,0 +1,7 @@
+requests
+mysql-connector-python
+keybert
+sentence-transformers
+faiss-cpu
+streamlit
+numpy
