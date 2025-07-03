@@ -2,44 +2,59 @@ import requests
 import json
 import time
 from pathlib import Path
-	#8879c883ce16febb4846c624f21596fa omaima ucd
-    #c77826d9d77779977c1ab8a027e0746d kawtar
-API_KEY = "8879c883ce16febb4846c624f21596fa"
-headers = {"Accept": "application/json", "X-ELS-APIKey": API_KEY}
-query = "machine learning"
-url = "https://api.elsevier.com/content/search/scopus"
+import os
+from dotenv import load_dotenv
 
-articles = []
+# Charger le fichier .env
+load_dotenv()
+
+# Lire les variables d'environnement
+API_KEY = os.getenv("SCOPUS_API_KEY")
+INST_TOKEN = os.getenv("INST_TOKEN")
+
+headers = {
+    "Accept": "application/json",
+    "X-ELS-APIKey": API_KEY,
+    "X-ELS-Insttoken": INST_TOKEN
+}
+
+query = "machine learning"
+search_url = "https://api.elsevier.com/content/search/scopus"
+abstract_url = "https://api.elsevier.com/content/abstract/scopus_id/"
+
+articles_basic = []
 for start in range(0, 500, 25):
-    print(f" Récupération {start + 1} à {start + 25}")
+    print(f" Recherche articles {start + 1} à {start + 25}")
     params = {"query": query, "count": 25, "start": start}
-    response = requests.get(url, headers=headers, params=params)
+    response = requests.get(search_url, headers=headers, params=params)
     if response.status_code == 200:
-        data = response.json()
-        entries = data.get("search-results", {}).get("entry", [])
-        articles.extend(entries)
+        entries = response.json().get("search-results", {}).get("entry", [])
+        articles_basic.extend(entries)
     else:
-        print(f" Erreur {response.status_code}")
+        print(f" Erreur recherche : {response.status_code}")
         break
     time.sleep(1)
 
-Path("data").mkdir(exist_ok=True)
-print(f"Nombre total d’articles collectés : {len(articles)}")
+print(f" Articles récupérés : {len(articles_basic)}")
 
-# Est-ce que la liste contient bien des dictionnaires ?
-if len(articles) > 0:
-    print(" Exemple du premier article :")
-    print(json.dumps(articles[0], indent=2, ensure_ascii=False))
-else:
-    print(" Aucun article collecté")
+# Enrichissement via Abstract Retrieval API
+articles_enriched = []
+for article in articles_basic:
+    scopus_id = article.get("dc:identifier", "").replace("SCOPUS_ID:", "")
+    if not scopus_id:
+        continue
+    url = f"{abstract_url}{scopus_id}?view=FULL"
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        data = response.json()
+        articles_enriched.append(data)
+    else:
+        print(f" Erreur enrichissement ID={scopus_id} : {response.status_code}")
+    time.sleep(1)
 
+Path("../data").mkdir(exist_ok=True)
 
-with open("../data/articles_raw.json", "w", encoding="utf-8") as f:
-    try:
-        json.dump(articles, f, ensure_ascii=False, indent=2)
-        print(" Enregistrement JSON terminé.")
-    except Exception as e:
-        print(" Erreur lors de l’enregistrement JSON :", e)
+with open("../data/articles_full.json", "w", encoding="utf-8") as f:
+    json.dump(articles_enriched, f, ensure_ascii=False, indent=2)
 
-
-print(f" {len(articles)} articles enregistrés.")
+print(" Données enrichies enregistrées.")
