@@ -1,0 +1,7 @@
+flask
+mysql-connector-python
+sentence-transformers
+faiss-cpu
+python-dotenv
+plotly
+pandas
