@@ -81,7 +81,7 @@
             <label for="year_start" class="form-label">📅 Année de début</label>
             <select class="form-select" name="year_start">
             <option value="">-- Début --</option>
-            {% for y in range(2015, 2026) %}
+            {% for y in range(2015, 2027) %}
             <option value="{{ y }}" {% if request.form.get('year_start') == y|string %}selected{% endif %}>{{ y }}</option>
             {% endfor %}
             </select>
@@ -90,14 +90,15 @@
             <label for="year_end" class="form-label">📅 Année de fin</label>
             <select class="form-select" name="year_end">
             <option value="">-- Fin --</option>
-            {% for y in range(2015, 2026) %}
+            {% for y in range(2015, 2027) %}
             <option value="{{ y }}" {% if request.form.get('year_end') == y|string %}selected{% endif %}>{{ y }}</option>
             {% endfor %}
             </select>
         </div>
         </div>
 
-
+<input type="text" name="author_filter" placeholder="Filter by author (optional)" class="form-control">
+<br>
         <div class="input-group">
           <input
             type="text"

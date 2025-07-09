@@ -6,11 +6,18 @@ from app.db import get_connection
 def fetch_articles():
     conn = get_connection()
     cursor = conn.cursor(dictionary=True)
-    cursor.execute("SELECT id, titre, resume FROM articles WHERE resume IS NOT NULL")
+    cursor.execute("""
+        SELECT 
+            id, scopus_id, titre, resume, date_publication, 
+            revue, doi, mots_cles, domaine_recherche 
+        FROM articles 
+        WHERE resume IS NOT NULL
+    """)
     articles = cursor.fetchall()
     cursor.close()
     conn.close()
     return articles
+
 
 def build_index():
     model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')

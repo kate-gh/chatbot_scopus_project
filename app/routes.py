@@ -1,16 +1,15 @@
 from flask import Blueprint, render_template, request, session, send_file, redirect, url_for
 from app.faiss_index import build_index
 from app.chatbot import get_top_results
-from app.db import get_connection
+from app.db import get_connection, get_authors_by_article
 import pdfkit
-import os
 from io import BytesIO
 from datetime import datetime
+import os
 
 bp = Blueprint('main', __name__)
 index, articles, model = build_index()
 
-# 🔁 Fonction utilitaire : charger l'historique de l'utilisateur
 def get_user_history(user_id):
     conn = get_connection()
     cursor = conn.cursor(dictionary=True)
@@ -24,7 +23,6 @@ def get_user_history(user_id):
     conn.close()
     return history
 
-# 🧠 Page principale du chatbot
 @bp.route('/', methods=['GET', 'POST'])
 def index_route():
     user = session.get('user')
@@ -35,6 +33,7 @@ def index_route():
         question = request.form['question']
         year_start = request.form.get('year_start')
         year_end = request.form.get('year_end')
+        author_filter = request.form.get('author_filter')  # ✅ Optional author input
 
         try:
             response_data = get_top_results(
@@ -43,32 +42,53 @@ def index_route():
                 year_end=year_end
             )
 
-            # ✅ Liste des expressions signalant qu'on ne veut pas de résumé
             no_resume_keywords = [
-                "sans résumé", "without abstract", "just title", "only title", "only titles",
-                "titre seulement", "sans abstract", "no abstract", "titre uniquement", "skip abstract"
+                "sans résumé", "without abstract", "just title", "only title",
+                "only titles", "titre seulement", "no abstract", "skip abstract"
             ]
-
-            question_clean = question.lower()
-            no_resume = any(keyword in question_clean for keyword in no_resume_keywords)
+            no_resume = any(keyword in question.lower() for keyword in no_resume_keywords)
 
             if response_data:
-                if no_resume:
-                    response_text = "\n\n".join([
-                        f"📝 {res.get('titre', 'Titre inconnu')}" for res in response_data
-                    ])
+                formatted = []
+                for res in response_data:
+                    title = res.get('titre', 'Unknown title')
+                    date = res.get('date_publication', 'Unknown date')
+                    journal = res.get('revue', 'Unknown journal')
+                    doi = res.get('doi', '')
+                    abstract = res.get('resume', 'No abstract available')
+
+                    authors = get_authors_by_article(res.get('id'))
+                    authors_str = ", ".join(authors) if authors else "Unknown author"
+
+                    # ✅ Author filtering
+                    if author_filter and not any(author_filter.lower() in a.lower() for a in authors):
+                        continue
+
+                    block = f"""<b>📝 Title:</b> {title}<br>
+<b>👤 Authors:</b> {authors_str}<br>
+<b>📅 Date:</b> {date}<br>
+<b>📚 Journal:</b> {journal}"""
+
+                    if not no_resume:
+                        block += f"<br><b>📜 Abstract:</b> {abstract}"
+
+                    if doi:
+                        block += f"<br><b>🔗 DOI:</b> {doi}"
+
+                    formatted.append(block)
+
+                if formatted:
+                    response_text = "<b>🔎 Here are the most relevant articles:</b><br><br>" + "<br><br>".join(formatted)
                 else:
-                    response_text = "\n\n".join([
-                        f"📝 {res.get('titre', 'Titre inconnu')}\n📜 {res.get('resume', 'Résumé indisponible')}" for res in response_data
-                    ])
+                    response_text = "No articles matched your filters."
             else:
-                response_text = "Aucun résultat trouvé pour votre question."
+                response_text = "No results found for your query."
 
         except Exception as e:
-            print("Erreur dans get_top_results:", e)
-            response_text = "Une erreur est survenue lors de la recherche."
+            print("Error in get_top_results:", e)
+            response_text = "An error occurred during the search."
 
-        # 💾 Enregistrement dans la base
+        # Save to DB
         try:
             conn = get_connection()
             cursor = conn.cursor()
@@ -80,12 +100,11 @@ def index_route():
             cursor.close()
             conn.close()
         except Exception as e:
-            print("Erreur lors de l'enregistrement du message:", e)
+            print("Database save error:", e)
 
     history = get_user_history(user['id'])
     return render_template('index.html', history=history, user=user)
 
-# 📥 Téléchargement d'une seule réponse
 @bp.route('/download/<int:msg_id>')
 def download_pdf(msg_id):
     user = session.get('user')
@@ -94,22 +113,18 @@ def download_pdf(msg_id):
 
     history = get_user_history(user['id'])
     if msg_id >= len(history):
-        return "Message non trouvé", 404
+        return "Message not found", 404
 
     msg = history[msg_id]
     question = msg['user']
     response = msg['bot'].replace('\n', '<br>')
 
     html = f"""
-    <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <style>body {{ font-family: Arial, sans-serif; }}</style>
-    </head>
+    <html>
+    <head><meta charset="UTF-8"></head>
     <body>
-        <h2>Question :</h2><p>{question}</p>
-        <h2>Réponse :</h2><p>{response}</p>
+        <h2>Question:</h2><p>{question}</p>
+        <h2>Response:</h2><p>{response}</p>
     </body>
     </html>
     """
@@ -117,9 +132,9 @@ def download_pdf(msg_id):
     config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
     pdf_bytes = pdfkit.from_string(html, False, configuration=config)
     pdf_file = BytesIO(pdf_bytes)
-    return send_file(pdf_file, download_name="reponse.pdf", as_attachment=True)
 
-# 📄 Téléchargement de toute la discussion
+    return send_file(pdf_file, download_name="response.pdf", as_attachment=True)
+
 @bp.route('/download-all')
 def download_all_pdf():
     user = session.get('user')
@@ -128,7 +143,7 @@ def download_all_pdf():
 
     history = get_user_history(user['id'])
     if not history:
-        return "Aucune discussion trouvée", 404
+        return "No history found", 404
 
     body = ""
     for i, msg in enumerate(history):
@@ -137,30 +152,19 @@ def download_all_pdf():
         body += f"""
             <h3>Message {i+1}</h3>
             <p><strong>Question:</strong> {question}</p>
-            <p><strong>Réponse:</strong><br>{reponse}</p>
+            <p><strong>Response:</strong><br>{reponse}</p>
             <hr>
         """
 
     html = f"""
-    <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <style>
-            body {{ font-family: Arial, sans-serif; }}
-            h3 {{ color: #2c3e50; }}
-            p {{ font-size: 14px; }}
-        </style>
-    </head>
-    <body>
-        <h1>Historique de discussion</h1>
-        {body}
-    </body>
-    </html>
+    <html>
+    <head><meta charset="utf-8"><style>body {{ font-family: Arial; }}</style></head>
+    <body><h1>Chat History</h1>{body}</body></html>
     """
 
     config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
     options = {'encoding': 'UTF-8'}
     pdf_bytes = pdfkit.from_string(html, False, configuration=config, options=options)
     pdf_file = BytesIO(pdf_bytes)
-    return send_file(pdf_file, download_name="discussion_complete.pdf", as_attachment=True)
+
+    return send_file(pdf_file, download_name="full_chat.pdf", as_attachment=True)

@@ -18,10 +18,9 @@ def get_publications_by_year():
     conn = get_connection()
     query = """
         SELECT 
-            LEFT(date_publication, 4) AS year, 
+            date_publication AS year, 
             COUNT(*) AS total 
         FROM articles 
-        WHERE LEFT(date_publication, 4) REGEXP '^[0-9]{4}$'
         GROUP BY year 
         ORDER BY year
     """
@@ -56,3 +55,17 @@ def get_all_keywords():
         keywords = row[0].split(';')
         all_keywords.extend([kw.strip().lower() for kw in keywords if kw.strip()])
     return all_keywords
+def get_authors_by_article(article_id):
+    conn = get_connection()
+    cursor = conn.cursor()
+    query = """
+        SELECT a.nom_complet
+        FROM auteurs a
+        JOIN article_auteur aa ON a.id = aa.auteur_id
+        WHERE aa.article_id = %s
+    """
+    cursor.execute(query, (article_id,))
+    authors = [row[0] for row in cursor.fetchall()]
+    cursor.close()
+    conn.close()
+    return authors
