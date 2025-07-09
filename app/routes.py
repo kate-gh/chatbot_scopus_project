@@ -36,17 +36,39 @@ def index_route():
         year_start = request.form.get('year_start')
         year_end = request.form.get('year_end')
 
-        response_data = get_top_results(
-            question, index, model, articles,
-            year_start=year_start,
-            year_end=year_end
-        )
+        try:
+            response_data = get_top_results(
+                question, index, model, articles,
+                year_start=year_start,
+                year_end=year_end
+            )
 
-        response_text = "\n\n".join([
-            f"📝 {res.get('titre', 'Titre inconnu')}\n📜 {res.get('resume', 'Résumé indisponible')}"
-            for res in response_data
-        ])
+            # ✅ Liste des expressions signalant qu'on ne veut pas de résumé
+            no_resume_keywords = [
+                "sans résumé", "without abstract", "just title", "only title", "only titles",
+                "titre seulement", "sans abstract", "no abstract", "titre uniquement", "skip abstract"
+            ]
 
+            question_clean = question.lower()
+            no_resume = any(keyword in question_clean for keyword in no_resume_keywords)
+
+            if response_data:
+                if no_resume:
+                    response_text = "\n\n".join([
+                        f"📝 {res.get('titre', 'Titre inconnu')}" for res in response_data
+                    ])
+                else:
+                    response_text = "\n\n".join([
+                        f"📝 {res.get('titre', 'Titre inconnu')}\n📜 {res.get('resume', 'Résumé indisponible')}" for res in response_data
+                    ])
+            else:
+                response_text = "Aucun résultat trouvé pour votre question."
+
+        except Exception as e:
+            print("Erreur dans get_top_results:", e)
+            response_text = "Une erreur est survenue lors de la recherche."
+
+        # 💾 Enregistrement dans la base
         try:
             conn = get_connection()
             cursor = conn.cursor()
@@ -60,7 +82,6 @@ def index_route():
         except Exception as e:
             print("Erreur lors de l'enregistrement du message:", e)
 
-    # 🔄 On charge toujours depuis la base
     history = get_user_history(user['id'])
     return render_template('index.html', history=history, user=user)
 
@@ -72,7 +93,6 @@ def download_pdf(msg_id):
         return redirect(url_for('auth.login'))
 
     history = get_user_history(user['id'])
-
     if msg_id >= len(history):
         return "Message non trouvé", 404
 
@@ -85,9 +105,7 @@ def download_pdf(msg_id):
     <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <style>
-            body {{ font-family: Arial, sans-serif; }}
-        </style>
+        <style>body {{ font-family: Arial, sans-serif; }}</style>
     </head>
     <body>
         <h2>Question :</h2><p>{question}</p>
@@ -99,7 +117,6 @@ def download_pdf(msg_id):
     config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
     pdf_bytes = pdfkit.from_string(html, False, configuration=config)
     pdf_file = BytesIO(pdf_bytes)
-
     return send_file(pdf_file, download_name="reponse.pdf", as_attachment=True)
 
 # 📄 Téléchargement de toute la discussion
@@ -113,7 +130,6 @@ def download_all_pdf():
     if not history:
         return "Aucune discussion trouvée", 404
 
-    # Contenu HTML structuré avec UTF-8
     body = ""
     for i, msg in enumerate(history):
         question = msg['user']
@@ -144,10 +160,7 @@ def download_all_pdf():
     """
 
     config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
-    options = {
-        'encoding': 'UTF-8'
-    }
+    options = {'encoding': 'UTF-8'}
     pdf_bytes = pdfkit.from_string(html, False, configuration=config, options=options)
     pdf_file = BytesIO(pdf_bytes)
-
     return send_file(pdf_file, download_name="discussion_complete.pdf", as_attachment=True)
