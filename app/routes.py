@@ -33,10 +33,18 @@ def index_route():
 
     if request.method == 'POST':
         question = request.form['question']
-        response_data = get_top_results(question, index, model, articles)
+        year_start = request.form.get('year_start')
+        year_end = request.form.get('year_end')
+
+        response_data = get_top_results(
+            question, index, model, articles,
+            year_start=year_start,
+            year_end=year_end
+        )
 
         response_text = "\n\n".join([
-            f"📝 {res.get('titre', 'Titre inconnu')}\n📜 {res.get('resume', 'Résumé indisponible')}" for res in response_data
+            f"📝 {res.get('titre', 'Titre inconnu')}\n📜 {res.get('resume', 'Résumé indisponible')}"
+            for res in response_data
         ])
 
         try:
