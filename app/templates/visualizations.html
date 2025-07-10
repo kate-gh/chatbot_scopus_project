@@ -1,36 +1,565 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Visualizations</title>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Visualisations - Scopus AI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; }
-        .graph-container { margin-bottom: 50px; }
-        h2 { color: #2c3e50; }
-        a { text-decoration: none; color: blue; }
+      :root {
+        --primary-color: #5ac7f7;
+        --primary-light: #7dd3f8;
+        --primary-dark: #3db8f5;
+        --secondary-color: #f1f5f9;
+        --accent-color: #5ac7f7;
+        --accent-light: #7dd3f8;
+        --text-primary: #0f172a;
+        --text-secondary: #64748b;
+        --text-light: #94a3b8;
+        --border-color: #cbd5e1;
+        --border-light: #e2e8f0;
+        --bg-white: #ffffff;
+        --bg-light: #f8fafc;
+        --bg-dark: #0f172a;
+        --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        --gradient-primary: linear-gradient(
+          135deg,
+          #5ac7f7 0%,
+          #7dd3f8 50%,
+          #3db8f5 100%
+        );
+        --gradient-secondary: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+        --gradient-accent: linear-gradient(135deg, #5ac7f7 0%, #7dd3f8 100%);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: var(--gradient-primary);
+        min-height: 100vh;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        color: var(--text-primary);
+        line-height: 1.6;
+        font-size: 14px;
+      }
+
+      .main-container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+
+      /* Header */
+      .header {
+        background: rgba(255, 255, 255, 0.98);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid var(--border-light);
+        padding: 1rem 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: var(--shadow);
+      }
+
+      .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+
+      .logo i {
+        background: var(--gradient-primary);
+        color: white;
+        padding: 0.6rem;
+        border-radius: 12px;
+        font-size: 1.2rem;
+        box-shadow: var(--shadow);
+      }
+
+      .header-actions {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .btn-modern {
+        background: var(--gradient-primary);
+        color: white;
+        border: none;
+        padding: 0.6rem 1.2rem;
+        border-radius: 10px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: var(--shadow);
+        font-size: 0.9rem;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .btn-modern:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-lg);
+        color: white;
+        background: var(--gradient-accent);
+        text-decoration: none;
+      }
+
+      .btn-outline-modern {
+        background: transparent;
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.9rem;
+      }
+
+      .btn-outline-modern:hover {
+        background: var(--primary-color);
+        color: white;
+        border-color: var(--primary-color);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow);
+        text-decoration: none;
+      }
+
+      /* Main Content */
+      .content-container {
+        flex: 1;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        width: 100%;
+      }
+
+      /* Page Title */
+      .page-title {
+        text-align: center;
+        margin-bottom: 3rem;
+        animation: fadeIn 0.6s ease-out;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .page-title h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--bg-white);
+        margin-bottom: 0.5rem;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+      }
+
+      .page-title .title-icon {
+        background: var(--bg-white);
+        color: var(--primary-color);
+        padding: 0.6rem;
+        border-radius: 12px;
+        font-size: 1.8rem;
+        box-shadow: var(--shadow-lg);
+      }
+
+      .page-title p {
+        font-size: 1.1rem;
+        color: rgba(255, 255, 255, 0.9);
+        font-weight: 500;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      /* Graph Containers */
+      .graphs-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-bottom: 3rem;
+      }
+
+      .graph-container {
+        background: var(--bg-white);
+        border-radius: 20px;
+        padding: 2rem;
+        box-shadow: var(--shadow-xl);
+        border: 1px solid var(--border-light);
+        transition: all 0.3s ease;
+        animation: slideUp 0.6s ease-out;
+        position: relative;
+        overflow: hidden;
+      }
+
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .graph-container:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+      }
+
+      .graph-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: var(--gradient-primary);
+        z-index: 1;
+      }
+
+      .graph-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        position: relative;
+        z-index: 2;
+      }
+
+      .graph-title i {
+        background: var(--gradient-secondary);
+        color: var(--primary-color);
+        padding: 0.5rem;
+        border-radius: 10px;
+        font-size: 1.1rem;
+      }
+
+      .graph-content {
+        position: relative;
+        z-index: 2;
+      }
+
+      /* Navigation */
+      .navigation {
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .back-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.75rem;
+        background: var(--bg-white);
+        color: var(--primary-color);
+        padding: 0.875rem 1.5rem;
+        border-radius: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: var(--shadow-lg);
+        font-size: 1rem;
+        border: 2px solid transparent;
+      }
+
+      .back-button:hover {
+        background: var(--primary-color);
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-xl);
+        text-decoration: none;
+        border-color: var(--primary-color);
+      }
+
+      .back-button i {
+        font-size: 1.1rem;
+        transition: transform 0.3s ease;
+      }
+
+      .back-button:hover i {
+        transform: translateX(-3px);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .header-content {
+          padding: 0 1rem;
+        }
+
+        .logo {
+          font-size: 1.3rem;
+        }
+
+        .content-container {
+          padding: 1.5rem 1rem;
+        }
+
+        .page-title h1 {
+          font-size: 2rem;
+          flex-direction: column;
+          gap: 1rem;
+        }
+
+        .page-title .title-icon {
+          font-size: 1.5rem;
+        }
+
+        .page-title p {
+          font-size: 1rem;
+        }
+
+        .graph-container {
+          padding: 1.5rem;
+          border-radius: 16px;
+        }
+
+        .graph-title {
+          font-size: 1.2rem;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.5rem;
+        }
+
+        .back-button {
+          padding: 0.75rem 1.25rem;
+          font-size: 0.9rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .content-container {
+          padding: 1rem 0.75rem;
+        }
+
+        .page-title h1 {
+          font-size: 1.8rem;
+        }
+
+        .graph-container {
+          padding: 1rem;
+          margin: 0 -0.25rem;
+        }
+
+        .graph-title {
+          font-size: 1.1rem;
+        }
+      }
+
+      /* Loading Animation */
+      .loading-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 200px;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid var(--border-light);
+        border-top: 4px solid var(--primary-color);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .loading-text {
+        color: var(--text-secondary);
+        font-weight: 500;
+      }
+
+      /* Enhanced visual effects */
+      .graph-container:nth-child(1) {
+        animation-delay: 0.1s;
+      }
+
+      .graph-container:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+
+      .graph-container:nth-child(3) {
+        animation-delay: 0.3s;
+      }
+
+      /* Plotly customization */
+      .plotly-graph-div {
+        border-radius: 10px;
+        overflow: hidden;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Header -->
+      <div class="header">
+        <div class="header-content">
+          <div class="logo">
+            <i class="fas fa-robot"></i>
+            <span>Scopus AI</span>
+          </div>
+          <div class="header-actions">
+            <a
+              href="{{ url_for('main.index_route') }}"
+              class="btn-outline-modern"
+            >
+              <i class="fas fa-comments"></i> Chat
+            </a>
+            {% if not is_guest %}
+            <a href="{{ url_for('auth.logout') }}" class="btn-outline-modern">
+              <i class="fas fa-sign-out-alt"></i> Déconnexion
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
 
-    <h1>📊 Scientific Article Insights</h1>
+      <!-- Main Content -->
+      <div class="content-container">
+        <!-- Page Title -->
+        <div class="page-title">
+          <h1>
+            <span class="title-icon">
+              <i class="fas fa-chart-line"></i>
+            </span>
+            Analyses Scientifiques
+          </h1>
+          <p>Découvrez les tendances et insights de la recherche académique</p>
+        </div>
 
-    <div class="graph-container">
-        <h2>👤 Top 10 Authors by Publications</h2>
-        {{ graph1|safe }}
+        <!-- Graphs Grid -->
+        <div class="graphs-grid">
+          <div class="graph-container">
+            <h2 class="graph-title">
+              <i class="fas fa-user-graduate"></i>
+              Top 10 Auteurs par Publications
+            </h2>
+            <div class="graph-content">{{ graph1|safe }}</div>
+          </div>
+
+          <div class="graph-container">
+            <h2 class="graph-title">
+              <i class="fas fa-microscope"></i>
+              Domaines de Recherche les Plus Fréquents
+            </h2>
+            <div class="graph-content">{{ graph2|safe }}</div>
+          </div>
+
+          <div class="graph-container">
+            <h2 class="graph-title">
+              <i class="fas fa-globe-americas"></i>
+              Publications par Pays
+            </h2>
+            <div class="graph-content">{{ graph3|safe }}</div>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+          <a href="{{ url_for('main.index_route') }}" class="back-button">
+            <i class="fas fa-arrow-left"></i>
+            Retour au Chat
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="graph-container">
-        <h2>📚 Most Frequent Research Domains</h2>
-        {{ graph2|safe }}
-    </div>
+    <script>
+      // Smooth scroll to top when page loads
+      window.addEventListener("load", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
 
-    <div class="graph-container">
-        <h2>🌍 Publications by Country</h2>
-        {{ graph3|safe }}
-    </div>
+      // Add loading animation for graphs
+      document.addEventListener("DOMContentLoaded", function () {
+        const graphContainers = document.querySelectorAll(".graph-container");
 
-    <a href="{{ url_for('main.index_route') }}">⬅️ Back to Chat</a>
+        graphContainers.forEach((container, index) => {
+          const graphContent = container.querySelector(".graph-content");
 
-</body>
+          // Add loading state initially
+          if (!graphContent.innerHTML.trim()) {
+            graphContent.innerHTML = `
+              <div class="loading-container">
+                <div class="loading-spinner"></div>
+                <div class="loading-text">Chargement du graphique...</div>
+              </div>
+            `;
+          }
+        });
+      });
+
+      // Enhanced hover effects
+      document.querySelectorAll(".graph-container").forEach((container) => {
+        container.addEventListener("mouseenter", function () {
+          this.style.transform = "translateY(-5px)";
+        });
+
+        container.addEventListener("mouseleave", function () {
+          this.style.transform = "translateY(0)";
+        });
+      });
+    </script>
+  </body>
 </html>
