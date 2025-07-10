@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualizations</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .graph-container { margin-bottom: 50px; }
+        h2 { color: #2c3e50; }
+        a { text-decoration: none; color: blue; }
+    </style>
+</head>
+<body>
+
+    <h1>📊 Scientific Article Insights</h1>
+
+    <div class="graph-container">
+        <h2>👤 Top 10 Authors by Publications</h2>
+        {{ graph1|safe }}
+    </div>
+
+    <div class="graph-container">
+        <h2>📚 Most Frequent Research Domains</h2>
+        {{ graph2|safe }}
+    </div>
+
+    <div class="graph-container">
+        <h2>🌍 Publications by Country</h2>
+        {{ graph3|safe }}
+    </div>
+
+    <a href="{{ url_for('main.index_route') }}">⬅️ Back to Chat</a>
+
+</body>
+</html>

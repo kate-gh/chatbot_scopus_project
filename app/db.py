@@ -3,7 +3,8 @@ import os
 from dotenv import load_dotenv
 import pandas as pd
 from collections import Counter
-
+import plotly.graph_objs as go
+import pandas as pd
 load_dotenv()
 
 def get_connection():
@@ -69,3 +70,49 @@ def get_authors_by_article(article_id):
     cursor.close()
     conn.close()
     return authors
+
+
+# 👤 Publications par auteur
+def get_publications_by_author():
+    conn = get_connection()
+    query = """
+        SELECT a.nom_complet AS author, COUNT(*) AS total
+        FROM auteurs a
+        JOIN article_auteur aa ON a.id = aa.auteur_id
+        GROUP BY a.nom_complet
+        ORDER BY total DESC
+        LIMIT 10
+    """
+    df = pd.read_sql(query, conn)
+    conn.close()
+    return df
+
+# 📚 Publications par domaine
+def get_publications_by_domain():
+    conn = get_connection()
+    query = """
+        SELECT domaine_recherche AS domain, COUNT(*) AS total
+        FROM articles
+        WHERE domaine_recherche IS NOT NULL AND domaine_recherche != ''
+        GROUP BY domaine_recherche
+        ORDER BY total DESC
+        LIMIT 10
+    """
+    df = pd.read_sql(query, conn)
+    conn.close()
+    return df
+
+# 🌍 Publications par pays
+def get_publications_by_country():
+    conn = get_connection()
+    query = """
+        SELECT af.pays AS country, COUNT(*) AS total
+        FROM affiliations af
+        JOIN auteur_affiliation aa ON af.id = aa.affiliation_id
+        GROUP BY af.pays
+        ORDER BY total DESC
+        LIMIT 10
+    """
+    df = pd.read_sql(query, conn)
+    conn.close()
+    return df
