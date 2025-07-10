@@ -202,3 +202,34 @@ def visualizations():
     graph3 = opy.plot(fig3, output_type='div')
 
     return render_template('visualizations.html', graph1=graph1, graph2=graph2, graph3=graph3)
+
+
+@bp.route('/discussions')
+def discussions():
+    user = session.get('user')
+    if not user:
+        return redirect(url_for('auth.login'))
+
+    conn = get_connection()
+    cursor = conn.cursor(dictionary=True)
+    cursor.execute("SELECT id, question, response, created_at FROM messages WHERE user_id = %s ORDER BY created_at DESC", (user['id'],))
+    discussions = cursor.fetchall()
+    cursor.close()
+    conn.close()
+
+    return render_template('discussions.html', discussions=discussions, user=user)
+
+@bp.route('/delete-message/<int:msg_id>', methods=['POST'])
+def delete_message(msg_id):
+    user = session.get('user')
+    if not user:
+        return redirect(url_for('auth.login'))
+
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM messages WHERE id = %s AND user_id = %s", (msg_id, user['id']))
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+    return redirect(url_for('main.discussions'))

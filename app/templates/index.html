@@ -574,11 +574,15 @@
               <i class="fas fa-chart-bar"></i> Visualisations
             </a>
             {% if not is_guest %}
+              <a href="{{ url_for('main.discussions') }}" class="btn-outline-modern">
+                <i class="fas fa-comments"></i> Discussions
+              </a>
               <a href="{{ url_for('auth.logout') }}" class="btn-outline-modern">
                 <i class="fas fa-sign-out-alt"></i> Déconnexion
               </a>
             {% endif %}
           </div>
+
         </div>
       </div>
 
@@ -654,19 +658,34 @@
             {% for item in history %}
             <div class="message-group">
               <div class="msg user-msg">
-                <i class="fas fa-user" style="margin-right: 0.5rem;"></i>
-                {{ item.user }}
+  <i class="fas fa-user me-2"></i>
+  <span>{{ item.user }}</span>
+  <div class="d-flex justify-content-between align-items-center mt-2" style="font-size: 0.75rem; opacity: 0.8;">
+    <span><i class="far fa-clock me-1"></i> {{ item.time }}</span>
+    <button class="btn btn-sm btn-outline-light ms-2 copy-btn" data-text="{{ item.user }}">
+      <i class="fas fa-copy"></i> Copier
+    </button>
+  </div>
               </div>
+
               <div class="msg bot-msg">
-                <i class="fas fa-robot" style="margin-right: 0.5rem;"></i>
-                {{ item.bot.replace('\n', '<br />')|safe }}
+                <i class="fas fa-robot me-2"></i>
+                <span>{{ item.bot.replace('\n', '<br />')|safe }}</span>
+                <div class="d-flex justify-content-between align-items-center mt-2" style="font-size: 0.75rem; opacity: 0.8;">
+                  <span><i class="far fa-clock me-1"></i> {{ item.time }}</span>
+                  <button class="btn btn-sm btn-outline-primary ms-2 copy-btn" data-text="{{ item.bot }}">
+                    <i class="fas fa-copy"></i> Copier
+                  </button>
+                </div>
               </div>
+
               <div class="message-actions">
                 <a href="{{ url_for('main.download_pdf', msg_id=loop.index0) }}" class="btn-action">
                   <i class="fas fa-download"></i>
                   Download PDF
                 </a>
               </div>
+
             </div>
             {% endfor %}
             <div id="chat-end"></div>
@@ -734,6 +753,18 @@
           e.preventDefault();
           form.submit();
         }
+      });
+
+      document.querySelectorAll('.copy-btn').forEach(button => {
+        button.addEventListener('click', function () {
+          const text = this.getAttribute('data-text');
+          navigator.clipboard.writeText(text).then(() => {
+            this.innerHTML = '<i class="fas fa-check"></i> Copié !';
+            setTimeout(() => {
+              this.innerHTML = '<i class="fas fa-copy"></i> Copier';
+            }, 2000);
+          });
+        });
       });
     </script>
   </body>
