@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <style>
-      :root {
+       :root {
         --primary-color: #5ac7f7;
         --primary-light: #7dd3f8;
         --primary-dark: #3db8f5;
@@ -327,28 +327,26 @@
         border-top: 1px solid var(--border-light);
       }
 
+      /* DIVIDER CORRIGÉ */
       .divider {
-        position: relative;
-        text-align: center;
+        display: flex;
+        align-items: center;
         margin: 1rem 0;
+        color: var(--text-light);
+        font-size: 0.85rem;
+        font-weight: 500;
       }
 
-      .divider::before {
+      .divider::before,
+      .divider::after {
         content: "";
-        position: absolute;
-        top: 50%;
-        left: 0;
-        right: 0;
+        flex: 1;
         height: 1px;
         background: var(--border-light);
       }
 
       .divider span {
-        background: var(--bg-white);
-        color: var(--text-light);
         padding: 0 0.75rem;
-        font-size: 0.85rem;
-        font-weight: 500;
       }
 
       .btn-guest {

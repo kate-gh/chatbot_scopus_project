@@ -6,7 +6,9 @@ from app.db import (
     get_authors_by_article,
     get_publications_by_author,
     get_publications_by_domain,
-    get_publications_by_country
+    get_publications_by_country,
+    get_authors_and_affiliations
+
 )
 import pdfkit
 from io import BytesIO
@@ -17,7 +19,7 @@ import plotly.offline as opy
 bp = Blueprint('main', __name__)
 index, articles, model = build_index()
 
-# 🔁 Historique depuis BDD
+#  Historique depuis BDD
 def get_user_history(user_id):
     conn = get_connection()
     cursor = conn.cursor(dictionary=True)
@@ -31,7 +33,7 @@ def get_user_history(user_id):
     conn.close()
     return history
 
-# 🧠 Page principale du chatbot
+#  Page principale du chatbot
 @bp.route('/', methods=['GET', 'POST'])
 def index_route():
     user = session.get('user')
@@ -61,33 +63,44 @@ def index_route():
             ]
             no_resume = any(keyword in question.lower() for keyword in no_resume_keywords)
 
+                
             formatted = []
-            for res in response_data:
+            for i, res in enumerate(response_data, start=1):
                 title = res.get('titre', 'Unknown title')
                 date = res.get('date_publication', 'Unknown date')
                 journal = res.get('revue', 'Unknown journal')
                 doi = res.get('doi', '')
                 abstract = res.get('resume', 'No abstract available')
 
-                authors = get_authors_by_article(res.get('id'))
-                authors_str = ", ".join(authors) if authors else "Unknown author"
+                authors_data = get_authors_and_affiliations(res.get('id'))
+                if authors_data:
+                    authors_str = "<ul>"
+                    for a in authors_data:
+                        nom = a['nom_complet']
+                        institution = a.get('nom_institution') or "Institution inconnue"
+                        pays = a.get('pays') or "Pays inconnu"
+                        authors_str += f"<li>{nom} — <i>{institution}, {pays}</i></li>"
+                    authors_str += "</ul>"
+                else:
+                    authors_str = "Unknown author"
+
 
                 if author_filter and not any(author_filter.lower() in a.lower() for a in authors):
                     continue
 
-                block = f"""<b>📝 Title:</b> {title}<br>
-<b>👤 Authors:</b> {authors_str}<br>
-<b>📅 Date:</b> {date}<br>
-<b>📚 Journal:</b> {journal}"""
+                block = f"""<b> Article {i} : </b><br> <br><i class="fas fa-book"></i> <b>Title:</b> {title}<br>
+<i class="fas fa-user"></i> <b>Authors:</b> {authors_str}<br>
+<i class="fas fa-calendar-alt"></i> <b>Date:</b> {date}<br>"""
 
                 if not no_resume:
-                    block += f"<br><b>📜 Abstract:</b> {abstract}"
+                    block += f'<br><i class="fas fa-align-left"></i> <b>Abstract:</b> {abstract}'
                 if doi:
-                    block += f"<br><b>🔗 DOI:</b> {doi}"
+                   block += f'<br><b><i class="fas fa-link"></i> DOI:</b> <a href="https://doi.org/{doi}" target="_blank">{doi}</a>'
 
                 formatted.append(block)
 
-            response_text = "<b>🔎 Here are the most relevant articles:</b><br><br>" + "<br><br>".join(formatted) if formatted else "No articles matched your filters."
+
+                response_text = '<b><i class="fas fa-search"></i> Here are the most relevant articles:</b><br><br>' + "<br><br>".join(formatted) if formatted else "No articles matched your filters."
 
         except Exception as e:
             print("Error in get_top_results:", e)
@@ -120,7 +133,7 @@ def index_route():
 
     return render_template('index.html', history=history, user=user or {'name': 'Invité'}, is_guest=is_guest)
 
-# 📥 Télécharger une réponse
+#  Télécharger une réponse
 @bp.route('/download/<int:msg_id>')
 def download_pdf(msg_id):
     user = session.get('user')
@@ -149,7 +162,7 @@ def download_pdf(msg_id):
     pdf_file = BytesIO(pdf_bytes)
     return send_file(pdf_file, download_name="response.pdf", as_attachment=True)
 
-# 📄 Télécharger toute la discussion
+#  Télécharger toute la discussion
 @bp.route('/download-all')
 def download_all_pdf():
     user = session.get('user')
@@ -183,7 +196,7 @@ def download_all_pdf():
     pdf_file = BytesIO(pdf_bytes)
     return send_file(pdf_file, download_name="full_chat.pdf", as_attachment=True)
 
-# 📊 Visualisation des données
+#  Visualisation des données
 @bp.route('/visualizations')
 def visualizations():
     df1 = get_publications_by_author()

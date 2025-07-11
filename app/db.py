@@ -72,7 +72,7 @@ def get_authors_by_article(article_id):
     return authors
 
 
-# 👤 Publications par auteur
+#  Publications par auteur
 def get_publications_by_author():
     conn = get_connection()
     query = """
@@ -87,7 +87,7 @@ def get_publications_by_author():
     conn.close()
     return df
 
-# 📚 Publications par domaine
+#  Publications par domaine
 def get_publications_by_domain():
     conn = get_connection()
     query = """
@@ -102,7 +102,7 @@ def get_publications_by_domain():
     conn.close()
     return df
 
-# 🌍 Publications par pays
+#  Publications par pays
 def get_publications_by_country():
     conn = get_connection()
     query = """
@@ -116,3 +116,19 @@ def get_publications_by_country():
     df = pd.read_sql(query, conn)
     conn.close()
     return df
+def get_authors_and_affiliations(article_id):
+    conn = get_connection()
+    cursor = conn.cursor(dictionary=True)
+    query = """
+        SELECT a.nom_complet, af.nom_institution, af.pays
+        FROM auteurs a
+        JOIN article_auteur aa ON a.id = aa.auteur_id
+        LEFT JOIN auteur_affiliation aaf ON a.id = aaf.auteur_id
+        LEFT JOIN affiliations af ON aaf.affiliation_id = af.id
+        WHERE aa.article_id = %s
+    """
+    cursor.execute(query, (article_id,))
+    rows = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return rows

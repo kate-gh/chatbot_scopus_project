@@ -4,7 +4,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 auth_bp = Blueprint('auth', __name__)
 
-# 🔐 Page de connexion
+#  Page de connexion
 @auth_bp.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
@@ -24,14 +24,14 @@ def login():
                 'name': user['name'],
                 'email': user['email']
             }
-            flash(f"👋 Bonjour {user['name']} !", "success")
+            flash(f" Bonjour {user['name']} !", "success")
             return redirect(url_for('main.index_route'))
         else:
-            flash("❌ Email ou mot de passe incorrect", "danger")
+            flash(" Email ou mot de passe incorrect", "danger")
 
     return render_template('login.html')
 
-# 📝 Page d'inscription
+#  Page d'inscription
 @auth_bp.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
@@ -47,7 +47,7 @@ def register():
         existing_user = cursor.fetchone()
 
         if existing_user:
-            flash("⚠️ Cet email est déjà utilisé. Veuillez en choisir un autre.", "warning")
+            flash(" Cet email est déjà utilisé. Veuillez en choisir un autre.", "warning")
             cursor.close()
             conn.close()
             return render_template('register.html')
@@ -64,14 +64,14 @@ def register():
         cursor.close()
         conn.close()
 
-        flash("✅ Inscription réussie ! Vous pouvez maintenant vous connecter.", "success")
+        flash(" Inscription réussie ! Vous pouvez maintenant vous connecter.", "success")
         return redirect(url_for('auth.login'))
 
     return render_template('register.html')
 
-# 🚪 Déconnexion
+#  Déconnexion
 @auth_bp.route('/logout')
 def logout():
     session.clear()
-    flash("🚪 Vous êtes maintenant déconnecté.", "info")
+    flash(" Vous êtes maintenant déconnecté.", "info")
     return redirect(url_for('auth.login'))

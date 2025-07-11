@@ -9,7 +9,7 @@ def get_top_results(query, index, model, articles, k=5, year_start=None, year_en
         article = articles[idx]
         year_val = article.get("date_publication")
 
-        # 🧠 Gérer le type de date correctement
+        #  Gérer le type de date correctement
         if isinstance(year_val, date):
             year = year_val.year
         elif isinstance(year_val, str) and year_val[:4].isdigit():
@@ -17,7 +17,7 @@ def get_top_results(query, index, model, articles, k=5, year_start=None, year_en
         else:
             year = None
 
-        # ✅ Filtrage
+        #  Filtrage
         if year_start and year and year < int(year_start):
             continue
         if year_end and year and year > int(year_end):
