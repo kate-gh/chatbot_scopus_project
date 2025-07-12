@@ -33,8 +33,8 @@ Un chatbot intelligent qui aide les utilisateurs à rechercher des articles scie
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/votre-utilisateur/chatbot-scopus-ai.git
-cd chatbot-scopus-ai
+git clone https://github.com/kate-gh/chatbot_scopus_project.git
+cd chatbot_scopus_project
 ```
 
 ### 2. Installer les dépendances Python
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### 3. Configurer la base de données
 
-- Créez une base de données MySQL `scopus_db`
+- Créez une base de données MySQL `chatbot_scopus`
 - Importez le fichier `create_tables.sql` pour créer les tables
 
 ### 4. Lancer le serveur Flask
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 python run.py
 ```
 
-Le serveur est accessible sur : [http://localhost:5000/](http://localhost:5000/)
+Le serveur est accessible sur : [http://localhost:5000/]
 
 ## Structure du projet
 
@@ -99,4 +99,4 @@ chatbot_scopus_project/
 
 ## 📄 Licence
 
-Projet réalisé dans le cadre du module _\[Nom du module]_ – Master _\[Nom du master]_ – \[Nom de l’Université].
+Projet réalisé dans le cadre du module Programmation Python Avancée – Master en Ingénierie Informatique et Analyse de Donnée(2IAD) – Université Chouaib DOUKKALI Faculté des Sciences.
