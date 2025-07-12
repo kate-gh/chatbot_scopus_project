@@ -1,7 +1,13 @@
 flask
+flask-session
+flask-wtf
 mysql-connector-python
 sentence-transformers
 faiss-cpu
 python-dotenv
 plotly
 pandas
+numpy
+pdfkit
+Jinja2
+requests
