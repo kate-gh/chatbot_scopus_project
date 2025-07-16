@@ -73,6 +73,8 @@ def index_route():
                 abstract = res.get('resume', 'No abstract available')
 
                 authors_data = get_authors_and_affiliations(res.get('id'))
+                authors = [a['nom_complet'] for a in authors_data] if authors_data else []
+
                 if authors_data:
                     authors_str = "<ul>"
                     for a in authors_data:
